@@ -63,67 +63,63 @@ export default function Gallery() {
   <img src={president} class="card-img-top" alt="..."/>
   <div class="card-body">
     <p class=" text-center">Pranav Kolekar</p>
-  <h4 class="card-title text-center">President</h4>
+  <h5 class="card-title text-center">President</h5>
   </div>
 </div>
 <div class="card" style={{width:"15rem" }}>
   <img src={vp} class="card-img-top" alt="..."/>
   <div class="card-body">
     <p class="text-center">Varad Sawantdesai</p>
-  <h4 class="card-title text-center">Vice-President</h4>
+  <h5 class="card-title text-center">Vice-President</h5>
   </div>
 </div>
 <div class="card" style={{width:"15rem" }}>
   <img src={ansh} class="card-img-top" alt="..."/>
   <div class="card-body">
     <p class="text-center">Ansh Shetty</p>
-  <h4 class="card-title text-center">General Secretary</h4>
+  <h5 class="card-title text-center">General Secretary</h5>
   </div>
 </div>
 <div class="card" style={{width:"15rem" }}>
   <img src={tree} class="card-img-top" alt="..."/>
   <div class="card-body">
     <p class="text-center">Harshal Chimane</p>
-  <h4 class="card-title text-center">Treasurer</h4>
+  <h5 class="card-title text-center">Treasurer</h5>
   </div>
 </div>
 </div>
+
 <div class="gallery-container">
-
-
-
-
 <div class="card" style={{width:"15rem" }}>
-  <img src={infra_H} class="card-img-top" alt="..."/>
+  <img src={tech_h2} class="card-img-top" alt="..."/>
   <div class="card-body">
-    <p class="text-center">Krishna Pandey</p>
-  <h4 class="card-title text-center">Infra Head</h4>
+    <p class="text-center">Karan Vishwakarma</p>
+  <h5 class="card-title text-center">Technical Head</h5>
   </div>
 </div>
 <div class="card" style={{width:"15rem" }}>
-  <img src={infra_H2} class="card-img-top" alt="..."/>
+  <img src={tech_h1} class="card-img-top" alt="..."/>
   <div class="card-body">
-    <p class="text-center">Mayuresh Navghane</p>
-  <h4 class="card-title text-center">Infra Head</h4>
+    <p class="text-center">Nikhil Mali</p>
+  <h5 class="card-title text-center">Technical Head</h5>
   </div>
 </div>
 <div class="card" style={{width:"15rem" }}>
-  <img src={doc_h} class="card-img-top" alt="..."/>
+  <img src={pub_H2} class="card-img-top" alt="..."/>
   <div class="card-body">
-    <p class="text-center">Purva Chalke</p>
-  <h5 class="card-title text-center">Documentation Head</h5>
+    <p class="text-center">Prachi Sanap </p>
+  <h5 class="card-title text-center">Publicity Head</h5>
   </div>
 </div>
 <div class="card" style={{width:"15rem" }}>
-  <img src={doc_h2} class="card-img-top" alt="..."/>
+  <img src={pub_h} class="card-img-top" alt="..."/>
   <div class="card-body">
-    <p class="text-center">Dhiraj Chavan</p>
-  <h5 class="card-title text-center">Documentation Head</h5>
+    <p class="text-center">Ranjan Padhey</p>
+  <h5 class="card-title text-center">Publicity Head</h5>
   </div>
 </div>
-
-
 </div>
+
 
 
 <div class="gallery-container">
@@ -161,48 +157,117 @@ export default function Gallery() {
 
 <div class="gallery-container">
 <div class="card" style={{width:"15rem" }}>
-  <img src={pub_H2} class="card-img-top" alt="..."/>
+  <img src={infra_H} class="card-img-top" alt="..."/>
   <div class="card-body">
-    <p class="text-center">Prachi Sanap </p>
-  <h4 class="card-title text-center">Publicity Head</h4>
+    <p class="text-center">Krishna Pandey</p>
+  <h5 class="card-title text-center">Infra Head</h5>
   </div>
 </div>
 <div class="card" style={{width:"15rem" }}>
-  <img src={pub_h} class="card-img-top" alt="..."/>
+  <img src={infra_H2} class="card-img-top" alt="..."/>
   <div class="card-body">
-    <p class="text-center">Ranjan Padhey</p>
-  <h4 class="card-title text-center">Publicity Head</h4>
+    <p class="text-center">Mayuresh Navghane</p>
+  <h5 class="card-title text-center">Infra Head</h5>
   </div>
 </div>
 <div class="card" style={{width:"15rem" }}>
-  <img src={tech_h1} class="card-img-top" alt="..."/>
+  <img src={doc_h} class="card-img-top" alt="..."/>
   <div class="card-body">
-    <p class="text-center">Nikhil Mali</p>
-  <h5 class="card-title text-center">Technical Head</h5>
+    <p class="text-center">Purva Chalke</p>
+  <h5 class="card-title text-center">Documentation Head</h5>
   </div>
 </div>
 <div class="card" style={{width:"15rem" }}>
-  <img src={tech_h2} class="card-img-top" alt="..."/>
+  <img src={doc_h2} class="card-img-top" alt="..."/>
   <div class="card-body">
-    <p class="text-center">Karan Vishwakarma</p>
-  <h5 class="card-title text-center">Technical Head</h5>
+    <p class="text-center">Dhiraj Chavan</p>
+  <h5 class="card-title text-center">Documentation Head</h5>
   </div>
 </div>
 </div>
+
+
+
+
+<div class="gallery-container">
+<div class="card" style={{width:"15rem" }}>
+  <img src={megha_document_member} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <p class="text-center">Megha </p>
+  <h5 class="card-title text-center">Documentation Member</h5>
+  </div>
+</div>
+<div class="card" style={{width:"15rem" }}>
+  <img src={siddhi_document_member} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <p class="text-center">Siddhi Kargutkar</p>
+  <h5 class="card-title text-center">Documentation Member</h5>
+  </div>
+</div>
+<div class="card" style={{width:"15rem" }}>
+  <img src={prabha_document_member} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <p class="text-center">Prabha</p>
+  <h5 class="card-title text-center">Documentation Member</h5>
+  </div>
+</div>
+<div class="card" style={{width:"15rem" }}>
+  <img src={soham_document_member} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <p class="text-center">Soham</p>
+  <h5 class="card-title text-center">Documentation Member</h5>
+  </div>
+</div>
+</div>
+
+
+<div class="gallery-container">
+<div class="card" style={{width:"15rem" }}>
+  <img src={kajal_tech_member} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <p class="text-center">Kajal </p>
+  <h5 class="card-title text-center">Technical Member</h5>
+  </div>
+</div>
+<div class="card" style={{width:"15rem" }}>
+  <img src={arvind_tech_member} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <p class="text-center">Arvind</p>
+  <h5 class="card-title text-center">Technical Member</h5>
+  </div>
+</div>
+<div class="card" style={{width:"15rem" }}>
+  <img src={shubham_publicity_member} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <p class="text-center">Shubham Gavhane</p>
+  <h5 class="card-title text-center">Publicity Member</h5>
+  </div>
+</div>
+<div class="card" style={{width:"15rem" }}>
+  <img src={sahil_publicity_member} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <p class="text-center">Sahil</p>
+  <h5 class="card-title text-center">Publicity Member</h5>
+  </div>
+</div>
+</div>
+
+
+
 
 <div class="gallery-container">
 <div class="card" style={{width:"15rem" }}>
   <img src={sahil_infra_member} class="card-img-top" alt="..."/>
   <div class="card-body">
     <p class="text-center">Sahil </p>
-  <h4 class="card-title text-center">Infra Member</h4>
+  <h5 class="card-title text-center">Infra Member</h5>
   </div>
 </div>
 <div class="card" style={{width:"15rem" }}>
   <img src={ameya_infra_member} class="card-img-top" alt="..."/>
   <div class="card-body">
     <p class="text-center">Ameya</p>
-  <h4 class="card-title text-center">Infra Member</h4>
+  <h5 class="card-title text-center">Infra Member</h5>
   </div>
 </div>
 <div class="card" style={{width:"15rem" }}>
@@ -227,14 +292,14 @@ export default function Gallery() {
   <img src={diksha_creativity_member} class="card-img-top" alt="..."/>
   <div class="card-body">
     <p class="text-center">Diksha </p>
-  <h4 class="card-title text-center">Creativity Member</h4>
+  <h5 class="card-title text-center">Creativity Member</h5>
   </div>
 </div>
 <div class="card" style={{width:"15rem" }}>
   <img src={nutan_creativity_member} class="card-img-top" alt="..."/>
   <div class="card-body">
     <p class="text-center">Nutan</p>
-  <h4 class="card-title text-center">Creativity Member</h4>
+  <h5 class="card-title text-center">Creativity Member</h5>
   </div>
 </div>
 <div class="card" style={{width:"15rem" }}>
@@ -254,69 +319,8 @@ export default function Gallery() {
 </div>
 
 
-<div class="gallery-container">
-<div class="card" style={{width:"15rem" }}>
-  <img src={kajal_tech_member} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <p class="text-center">Kajal </p>
-  <h4 class="card-title text-center">Technical Member</h4>
-  </div>
-</div>
-<div class="card" style={{width:"15rem" }}>
-  <img src={arvind_tech_member} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <p class="text-center">Arvind</p>
-  <h4 class="card-title text-center">Technical Member</h4>
-  </div>
-</div>
-<div class="card" style={{width:"15rem" }}>
-  <img src={shubham_publicity_member} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <p class="text-center">Shubham Gavhane</p>
-  <h5 class="card-title text-center">Publicity Member</h5>
-  </div>
-</div>
-<div class="card" style={{width:"15rem" }}>
-  <img src={sahil_publicity_member} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <p class="text-center">Sahil</p>
-  <h5 class="card-title text-center">Publicity Member</h5>
-  </div>
-</div>
-</div>
 
 
-
-<div class="gallery-container">
-<div class="card" style={{width:"15rem" }}>
-  <img src={megha_document_member} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <p class="text-center">Megha </p>
-  <h4 class="card-title text-center">Documentation Member</h4>
-  </div>
-</div>
-<div class="card" style={{width:"15rem" }}>
-  <img src={siddhi_document_member} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <p class="text-center">Siddhi Kargutkar</p>
-  <h4 class="card-title text-center">Documentation Memberr</h4>
-  </div>
-</div>
-<div class="card" style={{width:"15rem" }}>
-  <img src={prabha_document_member} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <p class="text-center">Prabha</p>
-  <h5 class="card-title text-center">Documentation Member</h5>
-  </div>
-</div>
-<div class="card" style={{width:"15rem" }}>
-  <img src={soham_document_member} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <p class="text-center">Soham</p>
-  <h5 class="card-title text-center">Documentation Member</h5>
-  </div>
-</div>
-</div>
 
 
 </div>
@@ -324,70 +328,4 @@ export default function Gallery() {
 
 )
 }
-/* <div class="responsive-container-block outer-container">
-  <div class="responsive-container-block inner-container">
-    <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-4 wk-ipadp-4 headings-container">
-    <button data-text="Awesome" class="button"> 
-    <span class="actual-text">&nbsp;OurTeam&nbsp;</span>
-    <span class="hover-text" aria-hidden="true">&nbsp;&nbsp;</span>
-</button>
-    </div>
-    </div>
-    </div> */
-
-
-    /* <div class="responsive-cell-block wk-desk-8 wk-ipadp-8 wk-tab-12 wk-mobile-12 team-members-container">
-      <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-mobile-12 wk-tab-12 card-container">
-        <div class="card">
-          <img class="card-img" src={president}/>
-          <p class="text-blk name">
-           Pranav Kholekar
-          </p>
-          <p class="text-blk position">
-            President
-          </p>
-        </div>
-        
-      </div>
-      <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-mobile-12 wk-tab-12 card-container">
-        <div class="card">
-          <img class="card-img" src={vp}/>
-          <p class="text-blk name">
-          Varad Sawantdesai 
-          </p>
-          <p class="text-blk position">
-          Vice-president 
-          </p>
-        </div>
-      </div>
-      <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-mobile-12 wk-tab-12 card-container">
-        <div class="card">
-          <img class="card-img" src={ansh}/>
-          <p class="text-blk name">
-          Ansh Shetty
-          </p>
-          <p class="text-blk position">
-            GS
-          </p>
-        </div>
-      </div>
-      <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-mobile-12 wk-tab-12 card-container">
-        <div class="card">
-          <img class="card-img" src={tree}/>
-          <p class="text-blk name">
-          Harshal Chimane 
-          </p>
-          <p class="text-blk position">
-          Treasurer
-          </p>
-        </div>
-      </div>
-    </div> 
-
-
-
-
-  </div>
-</div> */
-
 

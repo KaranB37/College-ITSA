@@ -14,7 +14,7 @@ export default function Footer() {
             <img src={csilogo} alt="" />
             <img src={iic} alt="" />
         </div>
-        <h6>Developed by Hrishikesh Gupta</h6>
+        <h6>Developed by Technical Team</h6>
     </div>
   )
 }
