@@ -1,0 +1,127 @@
+* {
+    font-family: Nunito, sans-serif;
+  }
+  
+  
+
+
+
+.gallery-container{
+  margin-top: 5rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.card {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-gallery{
+  display:flex;
+  flex-direction: column;
+}
+
+/* CSS for mobile phones */
+@media (max-width: 500px) {
+  .gallery-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%; /* Adjust this value as needed for proper spacing */
+    margin: 1rem;
+  }
+}
+
+.card-text{
+ margin-left: 30px;
+}
+
+
+
+
+/* === removing default button style ===*/
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  
+}
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255,255,255,0.6);
+  --animation-color: #0dcaf0;
+  --fs-size: 2em;
+  margin-bottom: -35px;
+  margin-top: 84px;
+  margin-left: 42%;
+  margin-right: 42%;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+  pointer-events: none; /* Disable clicking */
+  cursor: pointer; /* Remove cursor */
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+@media (max-width: 500px) {
+  /* Adjust gallery layout for mobile */
+
+  /* Button styles for mobile */
+  .button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255, 255, 255, 0.6);
+    --animation-color: #0dcaf0;
+    --fs-size: 1.5em; /* Adjust font size for mobile */
+    margin-bottom: -35px;
+    margin-top: 120px;
+    margin-left: 10%; /* Adjust margins for centering */
+    margin-right: 10%;
+    letter-spacing: 2px; /* Adjust letter spacing for mobile */
+    font-size: var(--fs-size);
+ 
+  }
+
+  /* Hover animation for mobile */
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 15px var(--animation-color));
+  }
+}

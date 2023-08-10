@@ -1,0 +1,346 @@
+html{
+  background-color: black;
+}
+body{
+  overflow-x: hidden;
+}
+#root{
+  background-color: black;
+  height: 100vh;
+  width: 100vw; 
+}
+@font-face {
+  font-family: adrasta;
+  src: url(../RequestPersonalUse-axgZo.otf);
+}
+@font-face {
+  font-family: futura ;
+  src: url(../FuturaLT-Book.ttf);
+}
+@font-face {
+  font-family: monserat;
+  src: url(../Montserrat-VariableFont_wght.ttf);
+}
+.navbar-brand{
+  font-size: 1.3rem !important;
+  color: rgb(69,162,230) !important;
+  font-family: adrasta !important;
+  letter-spacing: 2px;
+}
+.car_head{
+  margin-top: 0.5rem;
+  font-size: 3rem !important;
+  color: rgb(69,162,230) !important;
+  font-family: adrasta !important;
+  letter-spacing: 2px;
+}
+.left h1,.right h1{
+  color: rgb(155,203,238);
+}
+.carousel-item{
+  font-family: monserat;
+}
+.carousel-item h1{
+  color: rgb(155,203,238);
+}
+.carousel-content h4,.head_text,.contact_head{
+  font-family: futura;
+}
+.carousel-content h4{
+  letter-spacing: 2px;
+}
+.nav-link{
+  font-family: futura;
+}
+.dropdown{
+  font-family: futura;
+  background-color: black;
+
+}
+.div_vid{
+    background-color: black;
+    height: 100vh;
+    width: 100%;   
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+.videoTag{
+  height: 100%;
+  width: 100vw;
+  filter: brightness(50%);
+}
+video{
+  object-fit: fill;
+}
+.carousel-content {
+  font-size: 24px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  color: white;
+}
+.div_about,.gallery{
+  height: 100vh;
+  width:100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.carousel{
+  height:  35rem!important;
+  width: 60rem !important;
+  background-color:#202020;
+  border-radius: 0.5rem;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  color: white !important;
+  font-size: 22px;
+}
+.carousel-inner{
+  width: 50rem !important;
+  padding-top: 2rem;
+  display: flex;
+}
+.head_text{
+  /* margin-top: -1.5rem; */
+  font-size: 4rem;
+  font-weight: bolder;
+  color:  rgb(69,162,230);
+}
+.contact_main{
+  height: 75vh;
+  width: 100vw;
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contact_head{
+  color:  rgb(69,162,230);
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.contact_body{
+  height: 60%;
+  width: 70%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left{
+  width: 43%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.add{
+  width: 50%;
+}
+.right{
+  width: 43%;
+  height: 100%;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.social{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 5%;
+}
+.foot_main{
+  height: 20vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.foot_main h6{
+  text-align: center;
+}
+.logo_img{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around !important; 
+}
+.logo_img img{
+  height: 5rem;
+  width: 5rem;
+  background-color: white;
+  border-radius: 50%;
+}
+.social a img{
+  height: 2rem;
+  width: 2rem;
+}
+.dropdown{
+  margin-left: 1rem;
+}
+.card_main,.gallery-info{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card{
+  background-color: #202020 !important;
+  color: white;
+}
+.card-none{
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 500;
+}
+.row_1,.row_2,.gallery-row1,.gallery-row2{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.row_1,.gallery-row1{
+  margin-bottom: 5rem;
+}
+.gallery-info .card-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gallery-info img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid red;
+}
+.img-border{
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border:5px solid blue;
+  background-color: white;
+}
+.gallery-info .card-body{
+  background-color: black;
+}
+.gallery-info .card{
+  background-color: black !important;
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 12px;
+  }
+  .navbar-brand{
+    font-size: 1.3rem !important;
+  
+    
+  }
+  .div_vid{
+    height: 90vh !important;
+    width: 100vw; 
+  }
+  .nav-link{
+    font-size: 15px !important;
+  }
+  .videoTag{
+    height: 100% !important;
+    width:100vw !important;
+    object-fit: cover;
+  }
+  .div_about{
+    height: 70vh;
+    width: 100%; 
+  }
+  .carousel{
+    height:  34rem!important;
+    width: 30rem !important;
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+  .carousel-inner{
+    width: 25rem !important; 
+  }
+  .carousel-indicators{
+    margin-bottom: 0rem !important;
+  }
+  .add{
+    width: 100%;
+  }
+  .head_text{
+  margin-top: 1.5rem;
+  font-size: 3rem;
+  }
+  .contact_head{
+    font-size: 3rem;
+  }
+  .contact_body{
+    flex-direction: column;
+  }
+  .right{
+    width:70%;
+    height: 10vh;
+    margin-top: 2rem;
+  }
+  .car_head{
+    font-size: 1.7rem !important;
+    font-weight: bolder !important;
+  }
+  .foot_main{
+    height: 15vh;
+    position: relative;
+  }
+  .logo_img img{
+    height: 5rem;
+    width: 5rem;
+    background-color: white;
+  }
+  .card_main,.gallery-info{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .row_1,.row_2,.gallery-row1,.gallery-row2{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card{
+    margin-bottom: 3rem;
+  }
+}

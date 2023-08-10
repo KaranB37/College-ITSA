@@ -1,0 +1,15 @@
+.navbar-logo-container {
+    display: inline-block;
+    width: 40px; /* Adjust the size of the circular container */
+    height: 40px;
+    border-radius: 50%; /* Create a circular shape */
+    overflow: hidden; /* Clip the content to the circular shape */
+    margin-right: 10px; /* Add margin for spacing */
+  }
+  
+  .navbar-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
