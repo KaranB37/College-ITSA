@@ -1,0 +1,36 @@
+/* About.css */
+
+.gradient-bg {
+    background: linear-gradient(-45deg, #000000, #000000);
+    animation: gradientMovement 10s infinite linear;
+  }
+  
+  @keyframes gradientMovement {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .light-saber {
+    width: 450px; /* Default width for larger screens */
+    height: 6px;
+    background-color: #6BC6FF; /* Light blue color */
+    margin: 10px 0;
+  }
+
+  /* img, svg{
+    margin-bottom: -480px;
+    vertical-align: middle;
+  }
+   */
+  /* Media Query for Mobile Devices */
+  @media (max-width: 768px) {
+    .light-saber {
+      width: 40%; /* Adjust width for mobile screens */
+      margin: 10px 0; /* Center the light saber line */
+    }
+  }
+  

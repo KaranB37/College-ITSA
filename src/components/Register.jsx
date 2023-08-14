@@ -13,7 +13,7 @@ const Register = () => {
        <form action="#">
           <div class="field">
              <span class="fa fa-user"></span>
-             <input type="text" required placeholder="Email or Phone"/>
+             <input type="text" required placeholder="Email"/>
           </div>
           <div class="field space">
           <span class="fa fa-user"></span>
@@ -21,7 +21,7 @@ const Register = () => {
           </div>
           <div class="field space">
           <span class="fa fa-user"></span>
-          <input type="text" required placeholder="Year ex. TE IT B"/>
+          <input type="text" required placeholder="Year: TE IT B"/>
           </div>
 
           <div class="pass">

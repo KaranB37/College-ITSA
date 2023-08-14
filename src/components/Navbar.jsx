@@ -1,53 +1,62 @@
-import React from "react";
-import "../Component.css";
+import React, { useState } from 'react';
+
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { HashLink as Link } from "react-router-hash-link";
+import './Navbar.css';
 
-import "./Navbar.css"
+const Navbar = () => {
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
 
-export default function Navbar() {
-  return (
-    <>
-      <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-black">
-        <div className="container-fluid">
-          <Link style={{color: "white",fontWeight:"bold"}} className="navbar-brand" to="/#">
-            ITSA 
-          </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            style={{borderColor: "white"}}
-          >
-            <span className="navbar-toggler-icon" ></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">             
-              <Link className="nav-link active" style={{color: "white",fontWeight:"bold"}} aria-current="page" to="/#">
-                Home
-              </Link>
-              <Link className="nav-link" style={{color: "white",fontWeight:"bold"}} to="/#about">
-                About
-              </Link>
-              <Link className="nav-link" style={{color: "white",fontWeight:"bold"}} to="/#contact">
-                Contact
-              </Link>
-              <Link className="nav-link" style={{color: "white",fontWeight:"bold"}} to="/gallery">
-                Team
-              </Link>
-              <Link className="nav-link" style={{color: "white",fontWeight:"bold"}} to="/card">
-                Events
-              </Link>
-              <Link className="nav-link" style={{color: "white",fontWeight:"bold"}} to="/Register">
-                Register
-              </Link>
+    const closeMenu = () => setClick(false);
+
+    const [color, setColor] = useState(false);
+    const changeColor = () => {
+        if (window.scrollY >= 100) {
+            setColor(true);
+        } else {
+            setColor(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeColor);
+
+    return (
+        <div className={color ? 'header header-bg' : 'header'}>
+            <h1 className="header-logo">
+                ITSA
+            </h1>
+            <span className="light-saber-vertical"></span>
+            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                <li>
+                    <Link style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} to="/#" onClick={closeMenu} >Home</Link>
+                </li>
+                <li>
+                <Link to="/gallery" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >Team</Link>
+                </li>
+                <li>
+                <Link to="/Card" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >Event</Link>
+                </li>
+                <li>
+                <Link to="/#about" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >About</Link>
+                </li>
+                <li>
+                <Link to="/#contact" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >Contact</Link>
+                </li>
+                <li>
+                <Link to="/Register" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >Register</Link>
+                </li>
+            </ul>
+            <div className="hamburger" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={handleClick}>
+                {click ? (
+                    <FaTimes size={20} style={{ color: '#fff' }} />
+                ) : (
+                    <FaBars size={20} style={{ color: '#fff' }} />
+                )}
             </div>
-          </div>
         </div>
-      </nav>
-    </>
-  );
+      
+    );
 }
+
+export default Navbar;

@@ -6,6 +6,7 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Gallery from "./components/Gallery";
 import Register from "./components/Register";
 
+
 function App() {
   return (
     <BrowserRouter>

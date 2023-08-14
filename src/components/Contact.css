@@ -1,0 +1,13 @@
+.light-saber2 {
+    width: 450px; /* Default width for larger screens */
+    height: 6px;
+    background-color: #6BC6FF; /* Light blue color */
+    margin: 30px 130px;
+  }
+
+  @media (max-width: 768px) {
+    .light-saber2 {
+      width: 50%; /* Adjust width for mobile screens */
+      margin: 20px 110px; /* Center the light saber line */
+    }
+}

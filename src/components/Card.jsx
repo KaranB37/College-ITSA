@@ -1,15 +1,16 @@
 import "../Component.css";
-import img_1 from "../img/img_1.jpg"
-import img_2 from "../img/img_2.jpg"
-import img_3 from "../img/img_3.jpg"
-import img_4 from "../img/img_4.jpg"
+// import img_1 from "../img/img_1.jpg"
+// import img_2 from "../img/img_2.jpg"
+// import img_3 from "../img/img_3.jpg"
+// import img_4 from "../img/img_4.jpg"
 
 import React from "react";
 
 export default function Card() {
   return (
     <div className="card_main">
-    <div className="card-none">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,320L0,288L36.9,288L36.9,96L73.8,96L73.8,128L110.8,128L110.8,128L147.7,128L147.7,64L184.6,64L184.6,192L221.5,192L221.5,288L258.5,288L258.5,64L295.4,64L295.4,32L332.3,32L332.3,64L369.2,64L369.2,256L406.2,256L406.2,128L443.1,128L443.1,160L480,160L480,160L516.9,160L516.9,192L553.8,192L553.8,64L590.8,64L590.8,256L627.7,256L627.7,128L664.6,128L664.6,160L701.5,160L701.5,32L738.5,32L738.5,0L775.4,0L775.4,224L812.3,224L812.3,160L849.2,160L849.2,192L886.2,192L886.2,32L923.1,32L923.1,160L960,160L960,256L996.9,256L996.9,192L1033.8,192L1033.8,0L1070.8,0L1070.8,64L1107.7,64L1107.7,320L1144.6,320L1144.6,64L1181.5,64L1181.5,32L1218.5,32L1218.5,224L1255.4,224L1255.4,32L1292.3,32L1292.3,128L1329.2,128L1329.2,320L1366.2,320L1366.2,64L1403.1,64L1403.1,160L1440,160L1440,0L1403.1,0L1403.1,0L1366.2,0L1366.2,0L1329.2,0L1329.2,0L1292.3,0L1292.3,0L1255.4,0L1255.4,0L1218.5,0L1218.5,0L1181.5,0L1181.5,0L1144.6,0L1144.6,0L1107.7,0L1107.7,0L1070.8,0L1070.8,0L1033.8,0L1033.8,0L996.9,0L996.9,0L960,0L960,0L923.1,0L923.1,0L886.2,0L886.2,0L849.2,0L849.2,0L812.3,0L812.3,0L775.4,0L775.4,0L738.5,0L738.5,0L701.5,0L701.5,0L664.6,0L664.6,0L627.7,0L627.7,0L590.8,0L590.8,0L553.8,0L553.8,0L516.9,0L516.9,0L480,0L480,0L443.1,0L443.1,0L406.2,0L406.2,0L369.2,0L369.2,0L332.3,0L332.3,0L295.4,0L295.4,0L258.5,0L258.5,0L221.5,0L221.5,0L184.6,0L184.6,0L147.7,0L147.7,0L110.8,0L110.8,0L73.8,0L73.8,0L36.9,0L36.9,0L0,0L0,0Z"></path></svg>
+            <div className="card-none">
       <span>
         No Events To Participate
       </span>
@@ -17,85 +18,8 @@ export default function Card() {
        Wait For Events To Display Here
       </span>
     </div> 
-    <div className="row_1">
-    <div className="card" style={{width: "18rem"}}>
-    <img src={img_1} className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Project Competition</h5>
-          <p className="card-text">
-          This event is planned to provide a platform for the students to exhibit their innovative project skill set.
-          </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7pIXSkoHkqjGCxEVr6cxdWihNzIOQ4iJqaJEy-ZsZL_oTaA/viewform" target="_blank" rel="noreferrer" className="btn btn-primary">
-            Participate
-          </a>
-        </div>
-      </div>
-        <div className="card" style={{width: "18rem"}}>
-        <img src={img_1} className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Project Competition</h5>
-          <p className="card-text">
-          This event is planned to provide a platform for the students to exhibit their innovative project skill set.
-          </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7pIXSkoHkqjGCxEVr6cxdWihNzIOQ4iJqaJEy-ZsZL_oTaA/viewform" target="_blank" rel="noreferrer" className="btn btn-primary">
-            Participate
-          </a>
-        </div>
-      </div>
-      <div className="card" style={{width: "18rem"}}>
-        <img src={img_2} className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Coding Competition</h5>
-          <p className="card-text">
-          Starting the journey of programming and competitive coding, every coder wants to test himself/herself in the waters.
-          </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlSNkXTl32eJ401IoWVSac_QHN-_O1vyfouKKE2OdLdkNqXw/viewform" target="_blank" rel="noreferrer" className="btn btn-primary">
-            Participate
-          </a>
-        </div>
-      </div>
-        </div>
-        <div className="row_2">
-        <div className="card" style={{width: "18rem"}}>
-        <img src={img_3} className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Tech Hunt</h5>
-          <p className="card-text">
-          This is going to an information-based puzzle hunt, in which teams use their collective brainpower to solve clues
-          </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScpH-Oy73a6WN9S1T-cohWX_gKpSYXiRSrqCDYGTkYueq0iWA/viewform" target="_blank" rel="noreferrer" className="btn btn-primary">
-            Participate
-          </a>
-        </div>
-      </div>
-      <div className="card" style={{width: "18rem"}}>
-        <img src={img_4} className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Web development</h5>
-          <p className="card-text">
-          If you are a web developer and looking for some competitions to run in the race of skill development, then you are at the right place.
-          </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScUZ1cnW3xtGs5zoSRuemp6d9EkdiPFj6fThbSshvVYuoDCGw/viewform" target="_blank" rel="noreferrer" className="btn btn-primary">
-            Participate
-          </a>
-        </div>
-      </div>
-      <div className="card" style={{width: "18rem"}}>
-        <img src={img_4} className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Web development</h5>
-          <p className="card-text">
-          If you are a web developer and looking for some competitions to run in the race of skill development, then you are at the right place.
-          </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScUZ1cnW3xtGs5zoSRuemp6d9EkdiPFj6fThbSshvVYuoDCGw/viewform" target="_blank" rel="noreferrer" className="btn btn-primary">
-            Participate
-          </a>
-        </div>
-      </div>
-        </div>
-
-
-
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,192L0,32L36.9,32L36.9,128L73.8,128L73.8,256L110.8,256L110.8,64L147.7,64L147.7,224L184.6,224L184.6,256L221.5,256L221.5,128L258.5,128L258.5,288L295.4,288L295.4,32L332.3,32L332.3,256L369.2,256L369.2,64L406.2,64L406.2,224L443.1,224L443.1,64L480,64L480,64L516.9,64L516.9,0L553.8,0L553.8,32L590.8,32L590.8,192L627.7,192L627.7,224L664.6,224L664.6,32L701.5,32L701.5,128L738.5,128L738.5,288L775.4,288L775.4,96L812.3,96L812.3,0L849.2,0L849.2,96L886.2,96L886.2,32L923.1,32L923.1,256L960,256L960,96L996.9,96L996.9,32L1033.8,32L1033.8,32L1070.8,32L1070.8,128L1107.7,128L1107.7,32L1144.6,32L1144.6,288L1181.5,288L1181.5,128L1218.5,128L1218.5,0L1255.4,0L1255.4,64L1292.3,64L1292.3,32L1329.2,32L1329.2,192L1366.2,192L1366.2,128L1403.1,128L1403.1,224L1440,224L1440,320L1403.1,320L1403.1,320L1366.2,320L1366.2,320L1329.2,320L1329.2,320L1292.3,320L1292.3,320L1255.4,320L1255.4,320L1218.5,320L1218.5,320L1181.5,320L1181.5,320L1144.6,320L1144.6,320L1107.7,320L1107.7,320L1070.8,320L1070.8,320L1033.8,320L1033.8,320L996.9,320L996.9,320L960,320L960,320L923.1,320L923.1,320L886.2,320L886.2,320L849.2,320L849.2,320L812.3,320L812.3,320L775.4,320L775.4,320L738.5,320L738.5,320L701.5,320L701.5,320L664.6,320L664.6,320L627.7,320L627.7,320L590.8,320L590.8,320L553.8,320L553.8,320L516.9,320L516.9,320L480,320L480,320L443.1,320L443.1,320L406.2,320L406.2,320L369.2,320L369.2,320L332.3,320L332.3,320L295.4,320L295.4,320L258.5,320L258.5,320L221.5,320L221.5,320L184.6,320L184.6,320L147.7,320L147.7,320L110.8,320L110.8,320L73.8,320L73.8,320L36.9,320L36.9,320L0,320L0,320Z"></path></svg>
+ 
     </div>
   );
 }

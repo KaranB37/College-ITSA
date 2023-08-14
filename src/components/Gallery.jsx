@@ -46,7 +46,9 @@ import shubham_publicity_member from "../img2/shubham_publicity_member.png";
 
 
 
+
 export default function Gallery() {
+  
   return (
     
     <div className='team-gallery'>
@@ -317,14 +319,7 @@ export default function Gallery() {
   </div>
 </div>
 </div>
-
-
-
-
-
-
 </div>
-
 
 )
 }
