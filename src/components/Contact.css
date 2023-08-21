@@ -1,8 +1,8 @@
 .light-saber2 {
-    width: 450px; /* Default width for larger screens */
+    width: 100px; /* Default width for larger screens */
     height: 6px;
     background-color: #6BC6FF; /* Light blue color */
-    margin: 30px 130px;
+    margin: 15px 00px 30px 230px;
   }
 
   @media (max-width: 768px) {
