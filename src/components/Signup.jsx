@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { getFirestore, doc, setDoc } from 'firebase/firestore';
-
+import bg from "../img/bg.png";
 
 
 const Signup = ({ setAuthenticated }) => {
@@ -52,10 +52,10 @@ const Signup = ({ setAuthenticated }) => {
 
 
   return (
-  <div className="min-h-screen bg-black-100 py-6 flex flex-col justify-center sm:py-12">
+    <div className="min-h-screen bg-cover bg-center flex items-center justify-center"  style={{ backgroundImage: `url(${bg})` }}>
   <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-    <div className="absolute inset-0 bg-gradient-to-r from-blue-300 to-blue-600 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-    <div className="relative px-12 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+  <div className="absolute inset-0 shadow-lg bg-gradient-to-r from-blue-300/80 to-teal-600/80 via-emerald-700/80 to-fuchsia-500/80 transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+  <div className="relative px-12 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
       <div className="max-w-md mx-auto">
         <div>
           <h1 className="text-2xl font-semibold">Sign Up</h1><br/>

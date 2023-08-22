@@ -4,6 +4,8 @@ import { signInWithEmailAndPassword } from 'firebase/auth'; // Corrected import
 import { Link } from 'react-router-dom'; // Import the Link component
 import { useNavigate } from 'react-router-dom';
 
+import bg from "../img/bg.png";
+
 
 const Login = ({ setAuthenticated }) => {
 
@@ -32,9 +34,9 @@ const Login = ({ setAuthenticated }) => {
   };
 
   return (
-    <div className="min-h-screen bg-black-100 py-6 flex flex-col justify-center sm:py-12">
+    <div className="min-h-screen bg-cover bg-center flex items-center justify-center"  style={{ backgroundImage: `url(${bg})` }}>
     <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-300 to-blue-600 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+      <div className="absolute inset-0 shadow-lg bg-gradient-to-r from-blue-300/80 to-teal-600/80 via-emerald-700/80 to-fuchsia-500/80 transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
       <div className="relative px-12 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
         <div className="max-w-md mx-auto">
           <div>
@@ -48,16 +50,11 @@ const Login = ({ setAuthenticated }) => {
                   id="email"
                   name="email"
                   type="text"
-          
                   placeholder="Email address"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
-                <label
-                  htmlFor="email"
-                >
-                
-                </label>
+                <label htmlFor="email"></label>
               </div>
               <div className="field">
                 <input
@@ -69,11 +66,7 @@ const Login = ({ setAuthenticated }) => {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
-                <label
-                  htmlFor="password"
-                >
-                 
-                </label>
+                <label htmlFor="password"></label>
               </div>
               <div className="relative">
                 <button className="bg-blue-500 text-white rounded-md px-2 py-1" type="submit" onClick={handleLogin}>
@@ -90,13 +83,17 @@ const Login = ({ setAuthenticated }) => {
                 Click here
               </Link>
             </p>
+            <Link
+              to="/ForgetPass"
+              className="font-medium text-primary-600 hover:underline dark:text-primary-500"
+            >
+              Forgot Password!
+            </Link>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-    
   );
 }
 

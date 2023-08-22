@@ -8,6 +8,7 @@ import Gallery from './components/Gallery';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Profile from './components/Profile';
+import ForgetPass from './components/ForgetPass';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import PrivateRoute from './components/PrivateRoute'; // Import the PrivateRoute component
 
@@ -44,9 +45,13 @@ function App() {
     path="/Login"
     element={<Login setAuthenticated={setAuthenticated} />}
   />
-  <Route path="/Card" element={<PrivateRoute authenticated={authenticated} redirectTo="/login" element={<Card />} />} />
-  <Route path="/Gallery" element={<PrivateRoute authenticated={authenticated} redirectTo="/login" element={<Gallery />} />} />
+  <Route path="/Card" element={<Card />} />
+  <Route path="/Gallery" element={<Gallery />} />
   <Route path="/Profile" element={<PrivateRoute authenticated={authenticated} redirectTo="/login" element={<Profile />} />} />
+  <Route
+      path="/ForgetPass"
+      element={<ForgetPass/>}
+    />
     </Routes>
       <Footer/>
     </BrowserRouter>
@@ -54,3 +59,5 @@ function App() {
 }
 
 export default App;
+
+/* <Route path="/Card" element={<PrivateRoute authenticated={authenticated} redirectTo="/login" element={<Card />} />} /> */

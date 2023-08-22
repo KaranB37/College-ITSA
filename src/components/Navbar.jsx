@@ -70,7 +70,9 @@ const Navbar = () => {
                       </Link>
                       </div>
                   ) : (
+                    <li>
                     <Link to="/login" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >Login</Link>
+                    </li>
                   )}
             </ul>
             <div className="hamburger" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={handleClick}>

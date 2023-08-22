@@ -16,6 +16,7 @@ export default function Carousel() {
           <source src={file} type="video/mp4" />
         </video>
         <div className="carousel-content">
+        
         <h4>Vasantdada Patil Prathisthan's</h4>
         <h4>College Of Engineering</h4>
         <h4>IT Department Presents</h4>

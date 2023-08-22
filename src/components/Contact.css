@@ -11,3 +11,8 @@
       margin: 20px 110px; /* Center the light saber line */
     }
 }
+
+
+.bg-transparent {
+  background-color: transparent; /* Set the background color to transparent */
+}

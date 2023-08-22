@@ -4,9 +4,9 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <section className="bg-black" id="contact">
+    <section className="bg-transparent" id="contact">
     <div className="flex items-center justify-center h-3/4">
-      <div className="bg-black p-8 rounded-lg shadow-md w-[600px]"> {/* Increase the width */}
+      <div className="bg-transparent p-8 rounded-lg shadow-md w-[600px]"> {/* Increase the width */}
         <h1 className=" flex items-center justify-center text-4xl md:text-6xl lg:text-8xl font-bold mb-4 text-white">
           Contact Us
         </h1>

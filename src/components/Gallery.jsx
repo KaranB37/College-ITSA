@@ -154,8 +154,8 @@ export default function Gallery() {
 <div class="card" style={{width:"22rem" }}>
   <img src={Mag_H2} class="card-img-top" alt="..."/>
   <div class="card-body">
-  <h5 class="card-title text-center">Eshaan Vaity</h5>
-    <p class="text-center">Dhiraj Chavan</p>
+  <p class="text-center">Eshaan Vaity</p>
+  <h5 class="card-title text-center">Magzine Head</h5>
   </div>
 </div>
 </div>
@@ -178,16 +178,16 @@ export default function Gallery() {
   </div>
 </div>
 <div class="card" style={{width:"22rem" }}>
+<img src={doc_h2} class="card-img-top" alt="..."/>
+<div class="card-body">
+<p class="text-center">Dhiraj Chavan</p>
+<h5 class="card-title text-center">Documentation Head</h5>
+</div>
+</div>
+<div class="card" style={{width:"22rem" }}>
   <img src={doc_h} class="card-img-top" alt="..."/>
   <div class="card-body">
     <p class="text-center">Purva Chalke</p>
-  <h5 class="card-title text-center">Documentation Head</h5>
-  </div>
-</div>
-<div class="card" style={{width:"22rem" }}>
-  <img src={doc_h2} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <p class="text-center">Dhiraj Chavan</p>
   <h5 class="card-title text-center">Documentation Head</h5>
   </div>
 </div>

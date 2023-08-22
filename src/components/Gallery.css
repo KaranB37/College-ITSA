@@ -68,7 +68,7 @@
   width: 15rem;
   height: 20rem; /* Adjust the height as needed */
   display: flex;
-  flex-direction: column;
+
   align-items: center;
   justify-content: center; /* Center content vertically */
   position: relative; /* Establish a stacking context */
