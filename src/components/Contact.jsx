@@ -6,7 +6,7 @@ import bg from "../img/bg.png";
 
 export default function Contact() {
   return (
-    <div className="parallax" id="Contact">
+    <div className="parallax" id="contact">
     <div className="parallax-bg"></div>
     <div className="flex items-center justify-center h-3/4">
       <div className="bg-transparent p-8 rounded-lg shadow-md w-[600px]"> {/* Increase the width */}
