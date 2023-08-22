@@ -98,6 +98,7 @@ const Signup = ({ setAuthenticated }) => {
               type="text"
               placeholder="College ID"
               value={CollegeId}
+            
               onChange={(e) => setCollegeId(e.target.value)}
             />
           </div>

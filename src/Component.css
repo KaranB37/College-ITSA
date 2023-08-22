@@ -68,7 +68,7 @@ body{
 .videoTag{
   height: 100%;
   width: 100vw;
-  filter: brightness(50%);
+  filter: brightness(80%);
 }
 video{
   object-fit: fill;
