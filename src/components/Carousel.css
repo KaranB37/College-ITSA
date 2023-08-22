@@ -1,0 +1,12 @@
+.center-div {
+    background-color: rgba(0, 0, 0, 0.6); /* Using rgba to set opacity */
+    height: 300px;
+    width: 600px;
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+  }

@@ -75,14 +75,15 @@ video{
 }
 .carousel-content {
   font-size: 24px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   position: absolute;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  z-index: 1;
+  z-index: 2;
   color: white;
+  opacity: 1; /* Set opacity of the text content to 1 */
 }
 .div_about,.gallery{
   height: 100vh;

@@ -1,6 +1,6 @@
 import React from "react";
 import "../Component.css";
-import file from '../img/file2.mp4';
+import "./Carousel.css";
 import About from "./About";
 import Contact from "./Contact";
 import { Link
@@ -14,6 +14,8 @@ export default function Carousel() {
       <div className="div_vid parallax" id="Home"> 
       <div className="parallax-bg"></div>
       
+      <div className="carousel-content center-div">
+
         <div className="carousel-content ">
         
         <h4>Vasantdada Patil Prathisthan's</h4>
@@ -24,6 +26,7 @@ export default function Carousel() {
           <Link className="nav-link" style={{color: "white",fontWeight:"bold"}} to="/card">
                 Know More
           </Link></button>
+      </div>
       </div>
       </div>
       <About/>

@@ -11,6 +11,21 @@
   }
 }
 
+.center-div {
+  background-color: rgba(0, 0, 0, 0.6); /* Using rgba to set opacity */
+  height: 500px;
+  width: 500px;
+  border-radius: 30px;
+  z-index: 0;
+} 
+
+.carousel-content {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  z-index: 2;
+  color: white;
+  opacity: 1; /* Set opacity of the text content to 1 */
+}
 
 @keyframes parallaxAnimation {
   0% {
