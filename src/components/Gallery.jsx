@@ -47,14 +47,37 @@ import shubham_publicity_member from "../img/shubham_publicity_member.png";
 
 import itsam1 from "../img/itsam1.png";
 import itsam2 from "../img/itsam2.png";
-
+import itsa12 from "../img/itsa12.png";
   
 
+import HOD from "../img/hod1.png";
+  
 export default function Gallery() {
   return (
     
 
     <div className='team-gallery'>
+
+
+    
+    <button data-text="Awesome" class="button">
+    <div class="container">
+    <span class="actual-text text-4xl" style={{width: "22rem"}}>&nbsp;IT Head&nbsp;</span>
+    <span class="hover-text" aria-hidden="true"></span>
+    </div>
+    </button>
+
+    <div class="gallery-container">
+    <div class="card" style={{width:"22rem" }}>
+    <img src={HOD} class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <p class="text-center">Mr. Pradip Mane</p>
+    <h5 class="card-title text-center">IT Head</h5>
+    </div>
+  </div>
+    </div>
+    
+
 
     <button data-text="Awesome" class="button">
     <div class="container">
@@ -66,13 +89,6 @@ export default function Gallery() {
 
     <div class="gallery-container">
     <div class="card" style={{width:"22rem" }}>
-    <img src={ansh} class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <p class="text-center">Mr. Pradip Mane</p>
-    <h5 class="card-title text-center">IT Head</h5>
-    </div>
-  </div>
-    <div class="card" style={{width:"22rem" }}>
       <img src={itsam1} class="card-img-top" alt="..."/>
       <div class="card-body">
         <p class="text-center">Mr. Pravin Patil</p>
@@ -80,16 +96,16 @@ export default function Gallery() {
       </div>
     </div>
     <div class="card" style={{width:"22rem" }}>
+    <img src={itsa12} class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <p class="text-center">Ms. Vedika Avhad</p>
+    <h5 class="card-title text-center">ITSA Co-ordinator</h5>
+    </div>
+  </div>
+    <div class="card" style={{width:"22rem" }}>
       <img src={itsam2} class="card-img-top" alt="..."/>
       <div class="card-body">
         <p class="text-center">Mr. Nilesh Mali</p>
-      <h5 class="card-title text-center">ITSA Co-ordinator</h5>
-      </div>
-    </div>
-    <div class="card" style={{width:"22rem" }}>
-      <img src={ansh} class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <p class="text-center">Ansh</p>
       <h5 class="card-title text-center">ITSA Co-ordinator</h5>
       </div>
     </div>

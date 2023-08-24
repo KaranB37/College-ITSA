@@ -76,7 +76,7 @@ const Profile = () => {
       alt=""
     />
 
-    <h5 class="mb-1 text-xl font-medium text-white"> Welcome {userData.FirstName} {userData.LastName} to ITSA.</h5>
+    <h5 class="mb-1 text-xl font-medium text-white"> Welcome {userData.FirstName} {userData.LastName}.</h5>
 
 
     <span class="text-sm text-gray-400"> {userData.Email}</span>
