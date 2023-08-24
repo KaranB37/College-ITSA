@@ -76,10 +76,11 @@ const Profile = () => {
       alt=""
     />
 
-    <h5 class="mb-1 text-xl font-medium text-white"> {userData.FirstName} {userData.LastName}</h5>
+    <h5 class="mb-1 text-xl font-medium text-white"> Welcome {userData.FirstName} {userData.LastName} to ITSA.</h5>
 
 
     <span class="text-sm text-gray-400"> {userData.Email}</span>
+    <span class="text-sm text-gray-400">  </span>
     <div class="flex mt-4 space-x-3 md:mt-6">
       <button onClick={handleSignOut}
         class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"

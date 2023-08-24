@@ -28,20 +28,13 @@
 }
 
 /* Adjust the image position and size on hover */
-.card:hover .card-img-top {
-  transform: translate(-50%, -50%) scale(1.2); /* Move the image forward and scale it up */
-  filter: none; /* Remove any filters on the image */
-  z-index: 1; /* Place the image above other elements */
-}
+
 .card {
   /* ... (your existing card styles) */
   box-shadow: 0 0 10px rgba(0, 174, 255, 0); /* Initial glow effect with transparent color */
   transition: box-shadow 0.3s;
 }
 
-.card:hover {
-  box-shadow: 0 0 10px rgba(0, 174, 255, 10); /* Glow effect on hover */
-}
 
 .card {
   /* ... (your existing card styles) */
@@ -50,9 +43,7 @@
   animation: preLoadAnimation 2s ease-in-out forwards; /* Pre-loading animation */
 }
 
-.card:hover {
-  box-shadow: 0 0 10px rgba(0, 174, 255, 0.7); /* Glow effect on hover */
-}
+
 
 @keyframes preLoadAnimation {
   0% {
@@ -72,11 +63,9 @@
   align-items: center;
   justify-content: center; /* Center content vertically */
   position: relative; /* Establish a stacking context */
-  overflow: show; /* Hide overflowing content */
+
 }
-.card:hover .card-img-top {
-  transform: translateY(-10px); /* Move the image up slightly */
-}
+
 
 .card-title {
   font-size: 1.2rem; /* Adjust the font size */

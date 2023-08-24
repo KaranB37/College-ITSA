@@ -2,7 +2,7 @@
     background-color: rgba(0, 0, 0, 0.6); /* Using rgba to set opacity */
     height: 280px;
     width: 600px;
-    border-radius: 30px;
+    border-radius: 50px;
     position: absolute;
     display: flex;
     justify-content: center;

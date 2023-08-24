@@ -45,7 +45,8 @@ import arvind_tech_member from "../img/arvind_tech_member.png";
 import sahil_publicity_member from "../img/sahil_publicity_member.png";
 import shubham_publicity_member from "../img/shubham_publicity_member.png";
 
-
+import itsam1 from "../img/itsam1.png";
+import itsam2 from "../img/itsam2.png";
 
   
 
@@ -54,6 +55,48 @@ export default function Gallery() {
     
 
     <div className='team-gallery'>
+
+    <button data-text="Awesome" class="button">
+    <div class="container">
+    <span class="actual-text text-4xl" style={{width: "22rem"}}>&nbsp;ITSA Staff&nbsp;</span>
+    <span class="hover-text" aria-hidden="true"></span>
+    </div>
+    </button>
+
+
+    <div class="gallery-container">
+    <div class="card" style={{width:"22rem" }}>
+    <img src={ansh} class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <p class="text-center">Mr. Pradip Mane</p>
+    <h5 class="card-title text-center">IT Head</h5>
+    </div>
+  </div>
+    <div class="card" style={{width:"22rem" }}>
+      <img src={itsam1} class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <p class="text-center">Mr. Pravin Patil</p>
+      <h5 class="card-title text-center">ITSA Head</h5>
+      </div>
+    </div>
+    <div class="card" style={{width:"22rem" }}>
+      <img src={itsam2} class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <p class="text-center">Mr. Nilesh Mali</p>
+      <h5 class="card-title text-center">ITSA Co-ordinator</h5>
+      </div>
+    </div>
+    <div class="card" style={{width:"22rem" }}>
+      <img src={ansh} class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <p class="text-center">Ansh</p>
+      <h5 class="card-title text-center">ITSA Co-ordinator</h5>
+      </div>
+    </div>
+    </div>
+    
+    
+    
     <button data-text="Awesome" class="button">
     <div class="container">
     <span class="actual-text text-4xl" style={{width: "22rem"}}>&nbsp;Our Team&nbsp;</span>
