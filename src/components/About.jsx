@@ -7,9 +7,13 @@ const About = () => {
   return (
     
     <div className="parallax " id="about">
+    
       <div className="parallax-bg "></div>
 
+
+
       <div className="center flex flex-col md:flex-row justify-center items-center h-screen">
+      
         <div className="md:w-1/2 p-8">
           <h2 className="text-4xl flex items-center justify-center md:text-8xl font-bold mb-4 text-white">About Us</h2>
           <div className="light-saber"></div>
