@@ -17,7 +17,6 @@ const Signup = ({ setAuthenticated }) => {
   const [Year, setYear] = useState('');
   const [Division, setDivision] = useState('');
 
-
   const navigate = useNavigate();
 
   const handleSignup = async (e) => {
@@ -111,6 +110,7 @@ const Signup = ({ setAuthenticated }) => {
               <option value="IT">IT</option>
               <option value="CS">CS</option>
               <option value="EXTC">EXTC</option>
+              <option value="AIDS">AIDS</option>
             </select>
           </div>
           <div className="field">
