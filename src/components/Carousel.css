@@ -36,13 +36,5 @@
     padding: 0 20px;
     text-align: center;
   }
-
-
-  /* Add this CSS for mobile view */
-@media (max-width: 720px) {
-  .circle-image-left,
-  .circle-image-right {
-    width: 80px; /* Adjust the width for smaller devices */
-    height: 80px; /* Adjust the height proportionally */
-  }
-}
+  
+  

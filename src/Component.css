@@ -28,7 +28,7 @@ body{
   letter-spacing: 2px;
 }
 .car_head{
-  margin-top: 0.5rem;
+  margin-top: 0rem;
   font-size: 3rem !important;
   color: rgb(69,162,230) !important;
   font-family: adrasta !important;
@@ -68,7 +68,7 @@ body{
 .videoTag{
   height: 100%;
   width: 100vw;
-  filter: brightness(80%);
+  filter: brightness(50%);
 }
 video{
   object-fit: fill;

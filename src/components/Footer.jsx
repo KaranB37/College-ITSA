@@ -13,6 +13,14 @@ export default function Footer() {
       <footer>
         <div class="footer">
           <div class="row">
+          
+            <ul>
+            <li> <div className='logo_img'><img src={logo} alt="" /></div></li>
+            <li><div className='logo_img'><img src={vppcoe} alt="" /></div></li>
+            <li> <div className='logo_img'> <img src={csilogo} alt="" /></div></li>
+            <li><div className='logo_img'><img src={iic} alt="" /></div></li>
+            </ul>
+          
             <ul>
               <li>
                 <a href="#" className="icon-link">
@@ -20,12 +28,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="icon-link">
+                <a href="https://www.instagram.com/itsa_vppcoe/?hl=en" className="icon-link">
                   <FaInstagram size={30} className="instagram-icon" />
                 </a>
               </li>
               <li>
-                <a href="#" className="icon-link">
+                <a href="https://www.youtube.com/channel/UCD1whpZplYrmpdvPCCwHxbg" className="icon-link">
                   <FaYoutube size={30} className="youtube-icon" />
                 </a>
               </li>
@@ -34,6 +42,7 @@ export default function Footer() {
                   <FaTwitter size={30} className="twitter-icon" />
                 </a>
               </li>
+            
             </ul>
           </div>
 
@@ -65,17 +74,10 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          
-          <div className='row'>
-            <div className='logo_img'>
-              <img src={logo} alt="" />
-              <img src={vppcoe} alt="" />
-              <img src={csilogo} alt="" />
-              <img src={iic} alt="" />
-            </div>
-          </div>
+     
           <div className="centered-text">
-            All rights reserved || Designed By: Technical Team
+          Designed with ☕ and ❤️ by our Technical Team.<br></br>
+          
           </div>
         </div>
       </footer>

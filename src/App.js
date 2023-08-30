@@ -9,6 +9,7 @@ import Login from './components/Login';
 import Signup from './components/Signup';
 import Profile from './components/Profile';
 import ForgetPass from './components/ForgetPass';
+import SplashScreen from './components/SplashScreen';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import PrivateRoute from './components/PrivateRoute'; // Import the PrivateRoute component
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -38,6 +39,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
+  
       <Route path="/" element={<Carousel />} />
       <Route
       path="/Signup"
