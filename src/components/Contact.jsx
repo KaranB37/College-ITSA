@@ -1,7 +1,6 @@
 import React from "react";
 import "../Component.css";
 import "./Contact.css";
-import bg from "../img/bg.png";
 
 
 export default function Contact() {

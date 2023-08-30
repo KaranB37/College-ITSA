@@ -1,0 +1,110 @@
+
+    
+  
+  
+  
+  
+  
+  
+  
+  .footer .row ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer .row ul li {
+    margin: 0 10px;
+  }
+  
+  .icon-link {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.3s;
+  }
+  
+  .icon-link:hover .facebook-icon {
+    color: #1877f2; /* Facebook brand color */
+  }
+  
+  .icon-link:hover .instagram-icon {
+    color: #bc2a8d; /* Instagram brand color */
+  }
+  
+  .icon-link:hover .youtube-icon {
+    color: #ff0000; /* YouTube brand color */
+  }
+  
+  .icon-link:hover .twitter-icon {
+    color: #1da1f2; /* Twitter brand color */
+  }
+  
+  a{
+    
+    
+    margin-left: 0vh;
+  }
+  
+  .footer {
+    background: #000;
+    padding: 30px 0;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center align vertically */
+
+  }
+  
+.centered-text {
+    margin: 10px 0; /* Add some margin for spacing */
+    color: gray;
+    font-size: 0.8em;
+  }
+  
+ 
+  
+
+  
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    
+
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:center;
+    padding:20px;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:0px 10px;
+    text-align:center;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    
+  .footer .row {
+    text-align: center; /* Center align the text */
+  }
+    }

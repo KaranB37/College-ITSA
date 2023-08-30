@@ -125,7 +125,7 @@ export default function Gallery() {
 <div class="card" style={{width:"22rem" }}>
   <img src={president} class="card-img-top" alt="..."/>
   <div class="card-body">
-    <p class="text-center">Pranav Kholekar</p>
+    <p class="text-center">Pranav Kolekar</p>
   <h5 class="card-title text-center">President</h5>
   </div>
 </div>
@@ -190,17 +190,17 @@ export default function Gallery() {
 
 <div class="gallery-container">
 <div class="card" style={{width:"22rem" }}>
-  <img src={LR} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <p class="text-center">Shruti Epili</p>
-  <h5 class="card-title text-center">Ladies Representative</h5>
-  </div>
+<img src={doc_h2} class="card-img-top" alt="..."/>
+<div class="card-body">
+<p class="text-center">Dhiraj Chavan</p>
+<h5 class="card-title text-center">Documentation Head</h5>
+</div>
 </div>
 <div class="card" style={{width:"22rem" }}>
-  <img src={LR2} class="card-img-top" alt="..."/>
+  <img src={doc_h} class="card-img-top" alt="..."/>
   <div class="card-body">
-  <p class="text-center">Sanskruti Kadam</p>
-  <h5 class="card-title text-center">Ladies Representative</h5>
+    <p class="text-center">Purva Chalke</p>
+  <h5 class="card-title text-center">Documentation Head</h5>
   </div>
 </div>
 <div class="card" style={{width:"22rem" }}>
@@ -237,17 +237,17 @@ export default function Gallery() {
   </div>
 </div>
 <div class="card" style={{width:"22rem" }}>
-<img src={doc_h2} class="card-img-top" alt="..."/>
-<div class="card-body">
-<p class="text-center">Dhiraj Chavan</p>
-<h5 class="card-title text-center">Documentation Head</h5>
-</div>
+  <img src={LR} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <p class="text-center">Shruti Epili</p>
+  <h5 class="card-title text-center">Ladies Representative</h5>
+  </div>
 </div>
 <div class="card" style={{width:"22rem" }}>
-  <img src={doc_h} class="card-img-top" alt="..."/>
+  <img src={LR2} class="card-img-top" alt="..."/>
   <div class="card-body">
-    <p class="text-center">Purva Chalke</p>
-  <h5 class="card-title text-center">Documentation Head</h5>
+  <p class="text-center">Sanskruti Kadam</p>
+  <h5 class="card-title text-center">Ladies Representative</h5>
   </div>
 </div>
 </div>

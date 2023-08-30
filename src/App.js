@@ -11,6 +11,8 @@ import Profile from './components/Profile';
 import ForgetPass from './components/ForgetPass';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import PrivateRoute from './components/PrivateRoute'; // Import the PrivateRoute component
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   const [authenticated, setAuthenticated] = useState(false);
