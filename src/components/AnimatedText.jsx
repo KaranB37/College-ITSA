@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 
 const AnimatedText = () => {
   const [text, setText] = useState('ASECSD MCMNAJXN');
-  const targetText = 'ITSA || PVPPCOE';
+  const targetText = 'ITSA || VPPCOE';
   const intervalRef = useRef(null); // Use useRef to store the interval
   const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
