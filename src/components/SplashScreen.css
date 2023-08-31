@@ -6,19 +6,6 @@
   height: 100vh;
 }
 
-.splash-screen img {
-  width: 140px; /* Adjust the image size as needed */
-  height: 100px;
-  border-radius: 100%; /* Create a circular image */
-  margin-right: 10px; /* Add spacing between the image and text */
-  margin-bottom: 10px;
-}
 
 
 
-.splash-screen h1 {
-  font-size: 80px;
-  margin-bottom: 10px;
-}
-
-/* You can add more styles as needed */

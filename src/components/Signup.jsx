@@ -57,7 +57,8 @@ const Signup = ({ setAuthenticated }) => {
   <div className="relative px-12 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
       <div className="max-w-md mx-auto">
         <div>
-          <h1 className="text-2xl font-semibold">Sign Up</h1><br/>
+          <h1 className="text-2xl font-semibold">Sign Up</h1>        
+          <hr></hr>
         </div>
         <div className="grid grid-cols-2 gap-4"> {/* Create a grid with two columns */}
           <div className="field">

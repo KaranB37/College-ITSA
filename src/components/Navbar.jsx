@@ -60,7 +60,7 @@ const Navbar = () => {
                 <Link to="/#about" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >About</Link>
                 </li>
                 <li>
-                <Link to="/#contact" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >Contact</Link>
+                <Link to="/#contact" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >Feedback</Link>
                 </li>
                 {authenticated ? (
                     <div className="profile-image-container">

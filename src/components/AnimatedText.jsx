@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 
 const AnimatedText = () => {
-  const [text, setText] = useState('ASECSD MCMNAJXN');
+  const [text, setText] = useState('MHAUCYSTDGHEPQ');
   const targetText = 'ITSA || VPPCOE';
   const intervalRef = useRef(null); // Use useRef to store the interval
   const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -34,26 +34,21 @@ const AnimatedText = () => {
   }, []);
 
   return (
-    <h1
-    className="title"
-    style={{
-      fontFamily: 'Montserrat, sans-serif',
-      fontSize:'50px',
-      position: 'relative',
-      background: 'linear-gradient(to top, #000080, #007BA7)', // Dark Blue to Cerulean Blue
-      WebkitBackgroundClip: 'text',
-      WebkitTextFillColor: 'transparent',
-    }}
-  >
-    
-    
-    {text}
-  
-  </h1>
-  
-
-  
+    <div
+      className="title"
+      style={{
+        fontFamily: 'Montserrat, sans-serif',
+        fontSize: '6vw', // Use viewport width for font size
+        position: 'relative',
+        background: 'linear-gradient(to top, #000080, #007BA7)',
+        WebkitBackgroundClip: 'text',
+        WebkitTextFillColor: 'transparent',
+      }}
+    >
+      {text}
+    </div>
   );
+  
 };
 
 export default AnimatedText;
