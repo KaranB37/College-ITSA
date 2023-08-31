@@ -193,17 +193,17 @@ export default function Gallery() {
 
 <div className="gallery-container">
 <div className="card" style={{width:"22rem" }}>
-  <img src={pawar} className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <p className="text-center">Shreya Pawar</p>
-    <h5 className="card-title text-center">Reels & Videography Head</h5>
-  </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
   <img src={paste} className="card-img-top" alt="..."/>
   <div className="card-body">
   <p className="text-center">Aniket Paste</p>
   <h5 className="card-title text-center">Creativity Head</h5>
+  </div>
+</div>
+<div className="card" style={{width:"22rem" }}>
+  <img src={pawar} className="card-img-top" alt="..."/>
+  <div className="card-body">
+    <p className="text-center">Shreya Pawar</p>
+    <h5 className="card-title text-center">Reels & Videography Head</h5>
   </div>
 </div>
 <div className="card" style={{width:"22rem" }}>
