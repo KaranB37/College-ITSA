@@ -11,8 +11,8 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <div class="footer">
-          <div class="row">
+        <div className="footer">
+          <div className="row">
           
             <ul>
             <li> <div className='logo_img'><img src={logo} alt="" /></div></li>
@@ -46,7 +46,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div class="row">
+          <div className="row">
             <ul>
             <FaMapMarkerAlt size={30} />
               <li>

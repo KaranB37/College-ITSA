@@ -120,16 +120,7 @@ video{
   font-weight: bolder;
   color:  rgb(69,162,230);
 }
-.contact_main{
-  height: 75vh;
-  width: 100vw;
-  background: linear-gradient(45deg, #000000, #333333); /* Reversed colors */
-  animation: gradientMovement 10s infinite linear;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
+
 @keyframes gradientMovement {
   0% {
     background-position: 0% 50%;
@@ -278,7 +269,7 @@ video{
     font-size: 1.3rem !important;
   }
   .div_vid{
-    height: 90vh !important;
+    height: 100vh !important;
     width: 100vw; 
   }
   .nav-link{
@@ -289,40 +280,7 @@ video{
     width:100vw !important;
     object-fit: cover;
   }
-  .div_about{
-    height: 70vh;
-    width: 100%; 
-  }
-  .carousel{
-    height:  34rem!important;
-    width: 30rem !important;
-    font-size: 12px;
-    word-wrap: break-word;
-  }
-  .carousel-inner{
-    width: 25rem !important; 
-  }
-  .carousel-indicators{
-    margin-bottom: 0rem !important;
-  }
-  .add{
-    width: 100%;
-  }
-  .head_text{
-  margin-top: 1.5rem;
-  font-size: 3rem;
-  }
-  .contact_head{
-    font-size: 3rem;
-  }
-  .contact_body{
-    flex-direction: column;
-  }
-  .right{
-    width:70%;
-    height: 10vh;
-    margin-top: 2rem;
-  }
+
   .car_head{
     font-size: 1.7rem !important;
     font-weight: bolder !important;
@@ -337,7 +295,7 @@ video{
     background-color: white;
   }
   .card_main,.gallery-info{
-    margin-top: 5rem;
+    margin-top: 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
