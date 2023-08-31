@@ -203,7 +203,7 @@ export default function Gallery() {
   <img src={pawar} className="card-img-top" alt="..."/>
   <div className="card-body">
     <p className="text-center">Shreya Pawar</p>
-    <h5 className="card-title text-center">Reels & Videography Head</h5>
+    <h5 className="card-title text-center">Productivity & Videography Head</h5>
   </div>
 </div>
 <div className="card" style={{width:"22rem" }}>
