@@ -1,18 +1,24 @@
-.splash-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: #002233;
-  }
-  
-  .splash-background {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-  }
-  
-  /* Add your splash screen styles here */
-  
+.splash-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  height: 100vh;
+}
+
+.splash-screen img {
+  width: 140px; /* Adjust the image size as needed */
+  height: 100px;
+  border-radius: 100%; /* Create a circular image */
+  margin-right: 10px; /* Add spacing between the image and text */
+  margin-bottom: 10px;
+}
+
+
+
+.splash-screen h1 {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+/* You can add more styles as needed */

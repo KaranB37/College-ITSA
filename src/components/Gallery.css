@@ -19,6 +19,7 @@
 .team-gallery{
   display:flex;
   flex-direction: column;
+  margin-right: 10px;
 }
 
 /* Add a class for the blurred background */

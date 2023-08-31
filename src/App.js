@@ -11,14 +11,20 @@ import Profile from './components/Profile';
 import ForgetPass from './components/ForgetPass';
 import SplashScreen from './components/SplashScreen';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
-import PrivateRoute from './components/PrivateRoute'; // Import the PrivateRoute component
+import PrivateRoute from './components/PrivateRoute';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
   const [authenticated, setAuthenticated] = useState(false);
 
   useEffect(() => {
+    // Simulate some asynchronous operation
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // Replace with your actual loading logic
+
+
     const auth = getAuth();
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
@@ -35,33 +41,26 @@ function App() {
     };
   }, []);
 
+  if (isLoading) {
+    // Show the splash screen while loading
+    return <SplashScreen />;
+  }
+
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-  
-      <Route path="/" element={<Carousel />} />
-      <Route
-      path="/Signup"
-      element={<Signup setAuthenticated={setAuthenticated} />}
-    />
-    <Route
-    path="/Login"
-    element={<Login setAuthenticated={setAuthenticated} />}
-  />
-  <Route path="/Card" element={<Card />} />
-  <Route path="/Gallery" element={<Gallery />} />
-  <Route path="/Profile" element={<PrivateRoute authenticated={authenticated} redirectTo="/login" element={<Profile />} />} />
-  <Route
-      path="/ForgetPass"
-      element={<ForgetPass/>}
-    />
-    </Routes>
-      <Footer/>
+        <Route path="/" element={<Carousel />} />
+        <Route path="/Signup" element={<Signup setAuthenticated={setAuthenticated} />} />
+        <Route path="/Login" element={<Login setAuthenticated={setAuthenticated} />} />
+        <Route path="/Card" element={<Card />} />
+        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/Profile" element={<PrivateRoute authenticated={authenticated} redirectTo="/login" element={<Profile />} />} />
+        <Route path="/ForgetPass" element={<ForgetPass />} />
+      </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
 
 export default App;
-
-/* <Route path="/Card" element={<PrivateRoute authenticated={authenticated} redirectTo="/login" element={<Card />} />} /> */

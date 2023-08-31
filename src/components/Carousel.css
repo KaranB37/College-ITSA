@@ -1,15 +1,4 @@
-.center-div {
-    background-color: rgba(0, 0, 0, 0.6); /* Using rgba to set opacity */
-    height: 280px;
-    width: 600px;
-    border-radius: 50px;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    z-index: 0;
-  }
+
 
   .vasantdada-container {
     display: flex;
@@ -20,21 +9,73 @@
   .circle-image-right {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
+    border-radius: 100%;
   }
   
   .circle-image-left img,
   .circle-image-right img {
     width: 100%;
     height: 100%;
+    border-radius: 100%;
     object-fit: cover;
+  }
+  
+  .circle-image-left {
+    animation: flyInFromLeft 1s ease forwards;
+    top: 50%;
+    left: -75px;
+    transform: translateY(-50%);
+  }
+  
+  .circle-image-right {
+    animation: flyInFromRight 1s ease forwards;
+    top: 50%;
+    right: -75px;
+    transform: translateY(-50%);
   }
   
   .vasantdada-text {
     flex: 1;
-    padding: 0 20px;
     text-align: center;
+    color: #fff;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(-100%); /* Initially positioned above */
   }
   
+  .splash-screen-done .vasantdada-text {
+    animation: flyInFromAbove 1s ease forwards; /* Apply animation after splash screen */
+  }
+  
+  @keyframes flyInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes flyInFromAbove {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes flyInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
   
