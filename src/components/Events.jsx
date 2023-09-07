@@ -36,7 +36,7 @@ export default function Events() {
       This is going to an information-based puzzle hunt, in which teams use their collective brainpower to solve clues
       </p>
       <div class="button-container">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7pIXSkoHkqjGCxEVr6cxdWihNzIOQ4iJqaJEy-ZsZL_oTaA/viewform" target="_blank" class="btn btn-primary">
+      <a href="https://forms.gle/CcYCeLbRvuoSfphX8" target="_blank" class="btn btn-primary">
         Participate
       </a>
     </div>
