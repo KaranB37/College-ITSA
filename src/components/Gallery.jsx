@@ -59,44 +59,26 @@ export default function Gallery() {
   return (
     
 
-    <div classNameName='team-gallery'>
-
+    <div className='team-gallery'>
 
     
-    <button data-text="Awesome" className="button">
-    <div className="container">
-    <span className="actual-text text-4xl" style={{width: "15rem"}}>&nbsp;IT Head&nbsp;</span>
-    <span className="hover-text" aria-hidden="true"></span>
-    </div>
-    </button>
 
-    <div className="gallery-container">
-    <div className="card" style={{width:"22rem" }}>
-    <img src={HOD} className="card-img-top" alt="..."/>
-    <div className="card-body">
-      <p className="text-center">Mr. Pradip Mane</p>
-    <h5 className="card-title text-center">IT Head</h5>
-    </div>
-  </div>
-    </div>
     
-
-
     <button data-text="Awesome" className="button">
     <div className="container">
     <span className="actual-text text-4xl" style={{width: "18rem"}}>&nbsp;ITSA Staff&nbsp;</span>
     <span className="hover-text" aria-hidden="true"></span>
     </div>
     </button>
-
-
+    
+    
     <div className="gallery-container">
     <div className="card" style={{width:"22rem" }}>
-      <img src={itsam1} className="card-img-top" alt="..."/>
-      <div className="card-body">
-        <p className="text-center">Mr. Pravin Patil</p>
-      <h5 className="card-title text-center">ITSA Head</h5>
-      </div>
+    <img src={itsam1} className="card-img-top" alt="..."/>
+    <div className="card-body">
+    <p className="text-center">Mr. Pravin Patil</p>
+    <h5 className="card-title text-center">ITSA Head</h5>
+    </div>
     </div>
     <div className="card" style={{width:"22rem" }}>
     <img src={itsa12} className="card-img-top" alt="..."/>
@@ -111,213 +93,213 @@ export default function Gallery() {
         <p className="text-center">Mr. Nilesh Mali</p>
       <h5 className="card-title text-center">ITSA Co-ordinator</h5>
       </div>
-    </div>
-    </div>
-    
-    
-    
-    <button data-text="Awesome" className="button">
-    <div className="container">
-    <span className="actual-text text-4xl" style={{width: "18rem"}}>&nbsp;Our Team&nbsp;</span>
-    <span className="hover-text" aria-hidden="true"></span>
-    </div>
+      </div>
+      </div>
+      
+      
+      
+      <button data-text="Awesome" className="button">
+      <div className="container">
+      <span className="actual-text text-4xl" style={{width: "18rem"}}>&nbsp;Our Team&nbsp;</span>
+      <span className="hover-text" aria-hidden="true"></span>
+      </div>
     </button>
- 
-
-<div className="gallery-container">
-<div className="card" style={{width:"22rem" }}>
-  <img src={president} className="card-img-top" alt="..."/>
-  <div className="card-body">
+    
+    
+    <div className="gallery-container">
+    <div className="card" style={{width:"22rem" }}>
+    <img src={president} className="card-img-top" alt="..."/>
+    <div className="card-body">
     <p className="text-center">Pranav Kolekar</p>
-  <h5 className="card-title text-center">President</h5>
-  </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
+    <h5 className="card-title text-center">President</h5>
+    </div>
+    </div>
+    <div className="card" style={{width:"22rem" }}>
   <img src={vp} className="card-img-top" alt="..."/>
   <div className="card-body">
     <p className="text-center">Varad Sawantdesai</p>
-  <h5 className="card-title text-center">Vice-President</h5>
-  </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
-  <img src={ansh} className="card-img-top" alt="..."/>
-  <div className="card-body">
+    <h5 className="card-title text-center">Vice-President</h5>
+    </div>
+    </div>
+    <div className="card" style={{width:"22rem" }}>
+    <img src={ansh} className="card-img-top" alt="..."/>
+    <div className="card-body">
     <p className="text-center">Ansh Shetty</p>
-  <h5 className="card-title text-center">General Secretary</h5>
-  </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
-  <img src={tree} className="card-img-top" alt="..."/>
-  <div className="card-body">
+    <h5 className="card-title text-center">General Secretary</h5>
+    </div>
+    </div>
+    <div className="card" style={{width:"22rem" }}>
+    <img src={tree} className="card-img-top" alt="..."/>
+    <div className="card-body">
     <p className="text-center">Harshal Chimane</p>
-  <h5 className="card-title text-center">Treasurer</h5>
-  </div>
-</div>
-</div>
-
-
-
-
-<div className="gallery-container">
-<div className="card" style={{width:"22rem" }}>
-  <img src={tech_h2} className="card-img-top" alt="..."/>
-  <div className="card-body">
+    <h5 className="card-title text-center">Treasurer</h5>
+    </div>
+    </div>
+    </div>
+    
+    
+    
+    
+    <div className="gallery-container">
+    <div className="card" style={{width:"22rem" }}>
+    <img src={tech_h2} className="card-img-top" alt="..."/>
+    <div className="card-body">
     <p className="text-center">Karan Vishwakarma</p>
-  <h5 className="card-title text-center">Technical Head</h5>
-  </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
-  <img src={tech_h1} className="card-img-top" alt="..."/>
-  <div className="card-body">
+    <h5 className="card-title text-center">Technical Head</h5>
+    </div>
+    </div>
+    <div className="card" style={{width:"22rem" }}>
+    <img src={tech_h1} className="card-img-top" alt="..."/>
+    <div className="card-body">
     <p className="text-center">Nikhil Mali</p>
-  <h5 className="card-title text-center">Technical Head</h5>
-  </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
-<img src={pub_h} className="card-img-top" alt="..."/>
-<div className="card-body">
-<p className="text-center">Ranjan Padhey</p>
-<h5 className="card-title text-center">Publicity Head</h5>
-</div>
-</div>
-<div className="card" style={{width:"22rem" }}>
-  <img src={pub_H2} className="card-img-top" alt="..."/>
-  <div className="card-body">
+    <h5 className="card-title text-center">Technical Head</h5>
+    </div>
+    </div>
+    <div className="card" style={{width:"22rem" }}>
+    <img src={pub_h} className="card-img-top" alt="..."/>
+    <div className="card-body">
+    <p className="text-center">Ranjan Padhey</p>
+    <h5 className="card-title text-center">Publicity Head</h5>
+    </div>
+    </div>
+    <div className="card" style={{width:"22rem" }}>
+    <img src={pub_H2} className="card-img-top" alt="..."/>
+    <div className="card-body">
     <p className="text-center">Prachi Sanap </p>
-  <h5 className="card-title text-center">Publicity Head</h5>
+    <h5 className="card-title text-center">Publicity Head</h5>
   </div>
-</div>
-</div>
-
-
-
-<div className="gallery-container">
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  </div>
+  
+  
+  
+  <div className="gallery-container">
+  <div className="card" style={{width:"22rem" }}>
   <img src={paste} className="card-img-top" alt="..."/>
   <div className="card-body">
   <p className="text-center">Aniket Paste</p>
   <h5 className="card-title text-center">Creativity Head</h5>
   </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  <div className="card" style={{width:"22rem" }}>
   <img src={pawar} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Shreya Pawar</p>
-    <h5 className="card-title text-center">Productivity & Videography Head</h5>
+  <p className="text-center">Shreya Pawar</p>
+  <h5 className="card-title text-center" style={{fontSize: 18}}>Productivity & Videography Head</h5>
   </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
-<img src={doc_h2} className="card-img-top" alt="..."/>
-<div className="card-body">
-<p className="text-center">Dhiraj Chavan</p>
-<h5 className="card-title text-center">Documentation Head</h5>
-</div>
-</div>
-<div className="card" style={{width:"22rem" }}>
-  <img src={doc_h} className="card-img-top" alt="..."/>
+  </div>
+  <div className="card" style={{width:"22rem" }}>
+  <img src={doc_h2} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Purva Chalke</p>
+  <p className="text-center">Dhiraj Chavan</p>
   <h5 className="card-title text-center">Documentation Head</h5>
   </div>
-</div>
-</div>
-
-
-
-
-
-<div className="gallery-container">
+  </div>
+  <div className="card" style={{width:"22rem" }}>
+  <img src={doc_h} className="card-img-top" alt="..."/>
+  <div className="card-body">
+  <p className="text-center">Purva Chalke</p>
+  <h5 className="card-title text-center">Documentation Head</h5>
+  </div>
+  </div>
+  </div>
+  
+  
+  
+  
+  
+  <div className="gallery-container">
 <div className="card" style={{width:"22rem" }}>
   <img src={Mag_H} className="card-img-top" alt="..."/>
   <div className="card-body">
     <p className="text-center">Mitul Chavan</p>
     <h5 className="card-title text-center">Magzine Head</h5>
-  </div>
-</div>
+    </div>
+    </div>
 <div className="card" style={{width:"22rem" }}>
-  <img src={Mag_H2} className="card-img-top" alt="..."/>
-  <div className="card-body">
-  <p className="text-center">Eshaan Vaity</p>
+<img src={Mag_H2} className="card-img-top" alt="..."/>
+<div className="card-body">
+<p className="text-center">Eshaan Vaity</p>
   <h5 className="card-title text-center">Magzine Head</h5>
   </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  <div className="card" style={{width:"22rem" }}>
   <img src={infra_H} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Krishna Pandey</p>
+  <p className="text-center">Krishna Pandey</p>
   <h5 className="card-title text-center">Infra Head</h5>
   </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  <div className="card" style={{width:"22rem" }}>
   <img src={infra_H2} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Mayuresh Navghane</p>
+  <p className="text-center">Mayuresh Navghane</p>
   <h5 className="card-title text-center">Infra Head</h5>
   </div>
-</div>
-</div>
-
-
-
-
-<div className="gallery-container">
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  </div>
+  
+  
+  
+  
+  <div className="gallery-container">
+  <div className="card" style={{width:"22rem" }}>
   <img src={LR} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Shruti Epili</p>
+  <p className="text-center">Shruti Epili</p>
   <h5 className="card-title text-center">Ladies Representative</h5>
   </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  <div className="card" style={{width:"22rem" }}>
   <img src={LR2} className="card-img-top" alt="..."/>
   <div className="card-body">
   <p className="text-center">Sanskruti Kadam</p>
   <h5 className="card-title text-center">Ladies Representative</h5>
   </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  <div className="card" style={{width:"22rem" }}>
   <img src={megha_document_member} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Megha Mahajan </p>
+  <p className="text-center">Megha Mahajan </p>
   <h5 className="card-title text-center">Documentation Member</h5>
   </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  <div className="card" style={{width:"22rem" }}>
   <img src={siddhi_document_member} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Siddhi Kargutkar</p>
+  <p className="text-center">Siddhi Kargutkar</p>
   <h5 className="card-title text-center">Documentation Member</h5>
   </div>
-</div>
-</div>
-
-
-<div className="gallery-container">
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  </div>
+  
+  
+  <div className="gallery-container">
+  <div className="card" style={{width:"22rem" }}>
   <img src={kajal_tech_member} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Kajal Kewat</p>
+  <p className="text-center">Kajal Kewat</p>
   <h5 className="card-title text-center">Technical Member</h5>
   </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  <div className="card" style={{width:"22rem" }}>
   <img src={arvind_tech_member} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Arvind Sonkar</p>
+  <p className="text-center">Arvind Sonkar</p>
   <h5 className="card-title text-center">Technical Member</h5>
   </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  <div className="card" style={{width:"22rem" }}>
   <img src={shubham_publicity_member} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Shubham Gavhane</p>
+  <p className="text-center">Shubham Gavhane</p>
   <h5 className="card-title text-center">Publicity Member</h5>
   </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  <div className="card" style={{width:"22rem" }}>
   <img src={sahil_publicity_member} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Sahil Deshmukh</p>
+  <p className="text-center">Sahil Deshmukh</p>
   <h5 className="card-title text-center">Publicity Member</h5>
   </div>
 </div>
@@ -329,62 +311,62 @@ export default function Gallery() {
 <div className="gallery-container">
 
 <div className="card" style={{width:"22rem" }}>
-  <img src={prabha_document_member} className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <p className="text-center">Prabha Gawde</p>
-  <h5 className="card-title text-center">Documentation Member</h5>
-  </div>
+<img src={prabha_document_member} className="card-img-top" alt="..."/>
+<div className="card-body">
+<p className="text-center">Prabha Gawde</p>
+<h5 className="card-title text-center">Documentation Member</h5>
+</div>
 </div>
 <div className="card" style={{width:"22rem" }}>
-  <img src={soham_document_member} className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <p className="text-center">Soham Gawde</p>
-  <h5 className="card-title text-center">Documentation Member</h5>
-  </div>
+<img src={soham_document_member} className="card-img-top" alt="..."/>
+<div className="card-body">
+<p className="text-center">Soham Gawde</p>
+<h5 className="card-title text-center">Documentation Member</h5>
+</div>
 </div>
 <div className="card" style={{width:"22rem" }}>
-  <img src={rama_infra_mem} className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <p className="text-center">Ramdas Chougule</p>
-  <h5 className="card-title text-center">Infra Member</h5>
-  </div>
+<img src={rama_infra_mem} className="card-img-top" alt="..."/>
+<div className="card-body">
+<p className="text-center">Ramdas Chougule</p>
+<h5 className="card-title text-center">Infra Member</h5>
+</div>
 </div>
 <div className="card" style={{width:"22rem" }}>
-  <img src={aniket_infra_member} className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <p className="text-center">Aniket Patil</p>
-  <h5 className="card-title text-center">Infra Member</h5>
-  </div>
+<img src={aniket_infra_member} className="card-img-top" alt="..."/>
+<div className="card-body">
+<p className="text-center">Aniket Patil</p>
+<h5 className="card-title text-center">Infra Member</h5>
+</div>
 </div>
 </div>
 
 
 <div className="gallery-container">
 <div className="card" style={{width:"22rem" }}>
-  <img src={diksha_creativity_member} className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <p className="text-center">Diksha Jadhav </p>
+<img src={diksha_creativity_member} className="card-img-top" alt="..."/>
+<div className="card-body">
+<p className="text-center">Diksha Jadhav </p>
   <h5 className="card-title text-center">Creativity Member</h5>
   </div>
 </div>
 <div className="card" style={{width:"22rem" }}>
   <img src={nutan_creativity_member} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Nutan Avhad</p>
+  <p className="text-center">Nutan Avhad</p>
   <h5 className="card-title text-center">Creativity Member</h5>
   </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  <div className="card" style={{width:"22rem" }}>
   <img src={prachi_creativity_member} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Prachi Pokhare</p>
+  <p className="text-center">Prachi Pokhare</p>
   <h5 className="card-title text-center">Creativity Member</h5>
   </div>
-</div>
-<div className="card" style={{width:"22rem" }}>
+  </div>
+  <div className="card" style={{width:"22rem" }}>
   <img src={swaranjith_creativity_member} className="card-img-top" alt="..."/>
   <div className="card-body">
-    <p className="text-center">Swaranjith Gudelli</p>
+  <p className="text-center">Swaranjith Gudelli</p>
   <h5 className="card-title text-center">Creativity Member</h5>
   </div>
 </div>
@@ -393,18 +375,18 @@ export default function Gallery() {
 
 <div className="gallery-container">
 <div className="card" style={{width:"22rem" }}>
-  <img src={sahil_infra_member} className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <p className="text-center">Sahil Pawar </p>
-  <h5 className="card-title text-center">Infra Member</h5>
-  </div>
+<img src={sahil_infra_member} className="card-img-top" alt="..."/>
+<div className="card-body">
+<p className="text-center">Sahil Pawar </p>
+<h5 className="card-title text-center">Infra Member</h5>
+</div>
 </div>
 <div className="card" style={{width:"22rem" }}>
-  <img src={ameya_infra_member} className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <p className="text-center">Amey Katole</p>
-  <h5 className="card-title text-center">Infra Member</h5>
-  </div>
+<img src={ameya_infra_member} className="card-img-top" alt="..."/>
+<div className="card-body">
+<p className="text-center">Amey Katole</p>
+<h5 className="card-title text-center">Infra Member</h5>
+</div>
 </div>
 
 </div>
@@ -413,3 +395,15 @@ export default function Gallery() {
 )
 }
 
+
+/*  <div className="gallery-container">
+  <div className="card" style={{width:"22rem" }}>
+  <img src={HOD} className="card-img-top" alt="..."/>
+  <div className="card-body">
+    <p className="text-center">Mr. Pradip Mane</p>
+  <h5 className="card-title text-center">IT Head</h5>
+  </div>
+</div>
+  </div>
+  
+*/

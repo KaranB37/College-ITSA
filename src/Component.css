@@ -9,6 +9,20 @@ body{
   height: 100vh;
   width: 100vw; 
 }
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  font-size: 70px;
+  font-weight: 600;
+  background-image:radial-gradient(circle, #553c9a, #ee4b2b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+
 @font-face {
   font-family: adrasta;
   src: url(../RequestPersonalUse-axgZo.otf);
@@ -203,7 +217,16 @@ video{
 .dropdown{
   margin-left: 1rem;
 }
-.card_main,.gallery-info{
+.card_main{
+ padding-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.gallery-info{
   margin-top: 0rem;
   display: flex;
   justify-content: center;
@@ -211,6 +234,11 @@ video{
   flex-direction: column;
   justify-content: space-around;
 }
+
+
+
+
+
 .card{
   background-color: #202020 !important;
   color: white;
@@ -294,7 +322,14 @@ video{
     width: 5rem;
     background-color: white;
   }
-  .card_main,.gallery-info{
+  .card_main{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .gallery-info{
     margin-top: 0rem;
     display: flex;
     justify-content: center;

@@ -59,14 +59,14 @@ export default function Footer() {
                   Maharashtra 400022.
                 </a>
               </li>
-              <hr />
+              
             
                 <FaEnvelope size={30} />
                 <li>
                   <a href="#">techgyanathon@pvppcoe.ac.in</a>
                 
               </li>
-              <hr />
+              
             
                 <FaPhone size={30} />
                 <li>

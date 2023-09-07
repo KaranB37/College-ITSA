@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Carousel from './components/Carousel';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Card from './components/Card';
+import Events from './components/Events';
 import Gallery from './components/Gallery';
 import Login from './components/Login';
 import Signup from './components/Signup';
@@ -53,7 +53,7 @@ function App() {
         <Route path="/" element={<Carousel />} />
         <Route path="/Signup" element={<Signup setAuthenticated={setAuthenticated} />} />
         <Route path="/Login" element={<Login setAuthenticated={setAuthenticated} />} />
-        <Route path="/Card" element={<Card />} />
+        <Route path="/Events" element={<Events/>} />
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/Profile" element={<PrivateRoute authenticated={authenticated} redirectTo="/login" element={<Profile />} />} />
         <Route path="/ForgetPass" element={<ForgetPass />} />

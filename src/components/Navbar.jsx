@@ -54,7 +54,7 @@ const Navbar = () => {
                 <Link to="/Gallery" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >Team</Link>
                 </li>
                 <li>
-                <Link to="/Card" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >Event</Link>
+                <Link to="/Events" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >Event</Link>
                 </li>
                 <li>
                 <Link to="/#about" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >About</Link>
