@@ -57,10 +57,10 @@ const Navbar = () => {
                 <Link to="/Events" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >Event</Link>
                 </li>
                 <li>
-                <Link to="/#about" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >About</Link>
+                <Link to="/about" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >About</Link>
                 </li>
                 <li>
-                <Link to="/#contact" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >Feedback</Link>
+                <Link to="/contact" style={{color: "white",fontWeight:"bold", fontfamily: 'futura'}} onClick={closeMenu} >Feedback</Link>
                 </li>
                 {authenticated ? (
                     <div className="profile-image-container">

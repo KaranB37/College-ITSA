@@ -6,7 +6,7 @@ import about123 from "../img/about123.png";
 const About = () => {
   return (
     <div
-      className="about-container" id='about'
+      className="about-container"
       style={{
         backgroundImage: `url(${about123})`,
         backgroundSize: 'cover',
@@ -20,7 +20,7 @@ const About = () => {
           </h2>
           <div className="light-saber"></div>
           <p className="flex items-center justify-center text-white text-lg md:text-xl parallax-content">
-            We are a passionate group of IT students dedicated to fostering technical excellence and innovation among our peers. Through a dynamic blend of technical seminars, workshops, and cutting-edge events, we aim to immerse students in the realm of recent technologies. Our mission is to cultivate a vibrant learning community that promotes technical skills, knowledge sharing, and hands-on experiences. Join us on this journey as we empower and equip fellow IT enthusiasts to thrive in the ever-evolving world of technology.
+            We at ITSA, Through a dynamic blend of technical seminars, workshops, and cutting-edge events. Our mission is to cultivate a vibrant learning community that promotes technical skills, knowledge sharing, and hands-on experiences. Join us on this journey as we empower and equip fellow IT enthusiasts to thrive in the ever-evolving world of technology.
           </p>
         </div>
       </div>

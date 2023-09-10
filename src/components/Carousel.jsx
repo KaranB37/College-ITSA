@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "../Component.css";
 import "./Carousel.css";
-import About from "./About";
-import Contact from "./Contact";
 import file from '../img/file2.mp4';
 import { Link } from "react-router-dom";
 
@@ -52,9 +50,6 @@ export default function Carousel() {
       </div>
     </div>
   </div>
-  
-  <About />
-  <Contact />
     </>
   );
 }
