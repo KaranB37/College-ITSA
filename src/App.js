@@ -15,6 +15,8 @@ import Contact from './components/Contact';
 import About from './components/About';
 import PrivateRoute from './components/PrivateRoute';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { inject } from '@vercel/analytics';
+inject();
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
