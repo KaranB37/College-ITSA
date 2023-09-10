@@ -2,7 +2,6 @@ import React from 'react'
 // import "../Component.css";
 import "./Gallery.css";
 
-
 import ansh from "../img/ansh.png";
 import tree from "../img/tree.png";
 import vp from "../img/vp.png";
@@ -53,7 +52,7 @@ import paste from "../img/paste1.png";
 import pawar from "../img/pawar1.png";
   
 
-import HOD from "../img/hod1.png";
+// import HOD from "../img/hod1.png";
   
 export default function Gallery() {
   return (
