@@ -1,11 +1,19 @@
-import React from 'react';
-import './Footer.css';
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaMapMarkerAlt, FaEnvelope, FaPhone } from 'react-icons/fa';
+import React from "react";
+import "./Footer.css";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaTwitter,
+  FaMapMarkerAlt,
+  FaEnvelope,
+  FaPhone,
+} from "react-icons/fa";
 
-import logo from '../img/itsa.png';
-import csilogo from '../img/csi_logo.jpg';
-import vppcoe from '../img/vppcoe.png';
-import iic from '../img/iic.png';
+import logo from "../img/itsa.png";
+import csilogo from "../img/csi_logo.jpg";
+import vppcoe from "../img/vppcoe.png";
+import iic from "../img/iic.png";
 
 export default function Footer() {
   return (
@@ -13,14 +21,32 @@ export default function Footer() {
       <footer>
         <div className="footer">
           <div className="row">
-          
             <ul>
-            <li> <div className='logo_img'><img src={logo} alt="" /></div></li>
-            <li><div className='logo_img'><img src={vppcoe} alt="" /></div></li>
-            <li> <div className='logo_img'> <img src={csilogo} alt="" /></div></li>
-            <li><div className='logo_img'><img src={iic} alt="" /></div></li>
+              <li>
+                {" "}
+                <div className="logo_img">
+                  <img src={logo} alt="" />
+                </div>
+              </li>
+              <li>
+                <div className="logo_img">
+                  <img src={vppcoe} alt="" />
+                </div>
+              </li>
+              <li>
+                {" "}
+                <div className="logo_img">
+                  {" "}
+                  <img src={csilogo} alt="" />
+                </div>
+              </li>
+              <li>
+                <div className="logo_img">
+                  <img src={iic} alt="" />
+                </div>
+              </li>
             </ul>
-          
+
             <ul>
               <li>
                 <a href="#" className="icon-link">
@@ -28,12 +54,18 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/itsa_vppcoe/?hl=en" className="icon-link">
+                <a
+                  href="https://www.instagram.com/itsa_vppcoe/?hl=en"
+                  className="icon-link"
+                >
                   <FaInstagram size={30} className="instagram-icon" />
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/channel/UCD1whpZplYrmpdvPCCwHxbg" className="icon-link">
+                <a
+                  href="https://www.youtube.com/channel/UCD1whpZplYrmpdvPCCwHxbg"
+                  className="icon-link"
+                >
                   <FaYoutube size={30} className="youtube-icon" />
                 </a>
               </li>
@@ -42,42 +74,38 @@ export default function Footer() {
                   <FaTwitter size={30} className="twitter-icon" />
                 </a>
               </li>
-            
             </ul>
           </div>
 
           <div className="row">
             <ul>
-            <FaMapMarkerAlt size={30} />
+              <FaMapMarkerAlt size={30} />
               <li>
-            
                 <a href="#">
                   1rd Floor, Information Technology Department, <br />
-                  Vasantdada Patil Education Complex,<br />
-                  Eastern Express Highway,<br />
+                  Vasantdada Patil Education Complex,
+                  <br />
+                  Eastern Express Highway,
+                  <br />
                   Sion, Mumbai, <br />
                   Maharashtra 400022.
                 </a>
               </li>
-              
-            
-                <FaEnvelope size={30} />
-                <li>
-                  <a href="#">techgyanathon@pvppcoe.ac.in</a>
-                
+
+              <FaEnvelope size={30} />
+              <li>
+                <a href="#">techgyanathon@pvppcoe.ac.in</a>
               </li>
-              
-            
-                <FaPhone size={30} />
-                <li>
-                  <a href="#">+9122 2084 0325/2084 7226</a>
+
+              <FaPhone size={30} />
+              <li>
+                <a href="#">+9122 2084 0325/2084 7226</a>
               </li>
             </ul>
           </div>
-     
+
           <div className="centered-text">
-          Designed by Hrishikesh Gupta and Techinical Team.<br></br>
-          
+            Developed and Designed by Hrishikesh Gupta.<br></br>
           </div>
         </div>
       </footer>
