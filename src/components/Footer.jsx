@@ -76,7 +76,7 @@ export default function Footer() {
           </div>
      
           <div className="centered-text">
-          Designed with ☕ and ❤️ by our Technical Team.<br></br>
+          Designed by Hrishikesh Gupta and Techinical Team.<br></br>
           
           </div>
         </div>
