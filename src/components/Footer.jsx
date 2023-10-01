@@ -105,7 +105,7 @@ export default function Footer() {
           </div>
 
           <div className="centered-text">
-            Developed and Designed by Hrishikesh Gupta.<br></br>
+            Developed and Designed by Arvind sonkar.<br></br>
           </div>
         </div>
       </footer>
