@@ -23,26 +23,31 @@ export default function Footer() {
           <div className="row">
             <ul>
               <li>
-                {" "}
                 <div className="logo_img">
-                  <img src={logo} alt="" />
+                  <a href="https://itsa-pvppcoe.vercel.app/" target="_blank">
+                    <img src={logo} alt="" />
+                  </a>
                 </div>
               </li>
               <li>
                 <div className="logo_img">
-                  <img src={vppcoe} alt="" />
-                </div>
-              </li>
-              <li>
-                {" "}
-                <div className="logo_img">
-                  {" "}
-                  <img src={csilogo} alt="" />
+                  <a href="https://pvppcoe.ac.in/" target="_blank">
+                    <img src={vppcoe} alt="" />
+                  </a>
                 </div>
               </li>
               <li>
                 <div className="logo_img">
-                  <img src={iic} alt="" />
+                  <a href="https://www.csi-india.org/" target="_blank">
+                    <img src={csilogo} alt="" />
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div className="logo_img">
+                  <a href="https://iic.mic.gov.in/" target="_blank">
+                    <img src={iic} alt="" />
+                  </a>
                 </div>
               </li>
             </ul>
@@ -81,26 +86,20 @@ export default function Footer() {
             <ul>
               <FaMapMarkerAlt size={30} />
               <li>
-                <a href="#">
-                  1rd Floor, Information Technology Department, <br />
-                  Vasantdada Patil Education Complex,
-                  <br />
-                  Eastern Express Highway,
-                  <br />
-                  Sion, Mumbai, <br />
-                  Maharashtra 400022.
-                </a>
+                1rd Floor, Information Technology Department, <br />
+                Vasantdada Patil Education Complex,
+                <br />
+                Eastern Express Highway,
+                <br />
+                Sion, Mumbai, <br />
+                Maharashtra 400022.
               </li>
 
               <FaEnvelope size={30} />
-              <li>
-                <a href="#">techgyanathon@pvppcoe.ac.in</a>
-              </li>
+              <li>techgyanathon@pvppcoe.ac.in</li>
 
               <FaPhone size={30} />
-              <li>
-                <a href="#">+9122 2084 0325/2084 7226</a>
-              </li>
+              <li>+9122 2084 0325/2084 7226</li>
             </ul>
           </div>
 
