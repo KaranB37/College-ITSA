@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { getFirestore, doc, setDoc } from "firebase/firestore";
-import bg from "../img/bg.png";
+import "../Styles/Signup.css";
 
 const Signup = ({ setAuthenticated }) => {
   const [Email, setEmail] = useState("");
@@ -53,115 +53,135 @@ const Signup = ({ setAuthenticated }) => {
   };
 
   return (
-    <div
-      className="min-h-screen bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: `url(${bg})` }}
-    >
-      <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-        <div className="absolute inset-0 shadow-lg bg-gradient-to-r from-blue-300/80 to-teal-600/80 via-emerald-700/80 to-fuchsia-500/80 transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-        <div className="relative px-12 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
-          <div className="max-w-md mx-auto">
-            <div>
-              <h1 className="text-2xl font-semibold">Sign Up</h1>
-              <hr></hr>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              {" "}
-              {/* Create a grid with two columns */}
-              <div className="field">
-                <input
-                  type="email"
-                  placeholder="Email"
-                  value={Email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
-              <div className="field">
-                <input
-                  type="password"
-                  placeholder="Password"
-                  value={Password}
-                  onChange={(e) => setPassword(e.target.value)}
-                />
-              </div>
-              <div className="field">
-                <input
-                  type="text"
-                  placeholder="First Name"
-                  value={FirstName}
-                  onChange={(e) => setFirstName(e.target.value)}
-                />
-              </div>
-              <div className="field">
-                <input
-                  type="text"
-                  placeholder="Last Name"
-                  value={LastName}
-                  onChange={(e) => setLastName(e.target.value)}
-                />
-              </div>
-              <div className="field">
-                <input
-                  type="text"
-                  placeholder="College ID"
-                  value={CollegeId}
-                  onChange={(e) => setCollegeId(e.target.value)}
-                />
-              </div>
-              <div className="field">
-                <select
-                  value={Branch}
-                  onChange={(e) => setBranch(e.target.value)}
-                >
-                  <option value="">Select Branch</option>
-                  <option value="IT">IT</option>
-                  <option value="CS">CS</option>
-                  <option value="EXTC">EXTC</option>
-                  <option value="AIDS">AIDS</option>
-                </select>
-              </div>
-              <div className="field">
-                <select value={Year} onChange={(e) => setYear(e.target.value)}>
-                  <option value="">Select Year</option>
-                  <option value="FE">FE</option>
-                  <option value="SE">SE</option>
-                  <option value="TE">TE</option>
-                  <option value="BE">BE</option>
-                </select>
-              </div>
-              <div className="field">
-                <select
-                  value={Division}
-                  onChange={(e) => setDivision(e.target.value)}
-                >
-                  <option value="">Select Division</option>
-                  <option value="A">A</option>
-                  <option value="B">B</option>
-                </select>
-              </div>
-            </div>
-            <br />
-            <div className="field">
-              <button
-                className="bg-blue-500 text-white rounded-md px-2 py-1"
-                type="submit"
-                onClick={handleSignup}
-              >
-                Sign Up
-              </button>
-            </div>
-            <br />
-            <p className="text-sm font-light text-gray-500 dark:text-gray-400">
-              Already have an account?{" "}
-              <Link
-                to="/Login"
-                className="font-medium text-primary-600 hover:underline dark:text-primary-500"
-              >
-                Click here
-              </Link>
-            </p>
+    <div className="Signup-container">
+      <div className="bubble"></div>
+      <div className="bubble1"></div>
+      <div className="bubble2"></div>
+      <div className="bubble3"></div>
+      <div className="bubble4"></div>
+      <div className="form-container2">
+        <h1 className="form-title">Sign Up</h1>
+        <hr />
+        <div className="form-content">
+          <div className="field">
+            <input
+              autoComplete="off"
+              id="email"
+              name="email"
+              type="text"
+              placeholder="Email address"
+              value={Email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <label htmlFor="email"></label>
+          </div>
+          <div className="field">
+            <input
+              autoComplete="off"
+              id="password"
+              name="password"
+              type="password"
+              placeholder="Password"
+              value={Password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <label htmlFor="password"></label>
+          </div>
+          <div className="field">
+            <input
+              autoComplete="off"
+              id="firstName"
+              name="firstName"
+              type="text"
+              placeholder="First Name"
+              value={FirstName}
+              onChange={(e) => setFirstName(e.target.value)}
+            />
+            <label htmlFor="firstName"></label>
+          </div>
+          <div className="field">
+            <input
+              autoComplete="off"
+              id="lastName"
+              name="lastName"
+              type="text"
+              placeholder="Last Name"
+              value={LastName}
+              onChange={(e) => setLastName(e.target.value)}
+            />
+            <label htmlFor="lastName"></label>
+          </div>
+          <div className="field">
+            <input
+              autoComplete="off"
+              id="collegeId"
+              name="collegeId"
+              type="text"
+              placeholder="College ID"
+              value={CollegeId}
+              onChange={(e) => setCollegeId(e.target.value)}
+            />
+            <label htmlFor="collegeId"></label>
+          </div>
+          <div className="field">
+            <select
+              id="branch"
+              name="branch"
+              value={Branch}
+              onChange={(e) => setBranch(e.target.value)}
+            >
+              <option value="">Select Branch</option>
+              <option value="IT">IT</option>
+              <option value="CS">CS</option>
+              <option value="EXTC">EXTC</option>
+              <option value="AIDS">AIDS</option>
+            </select>
+          </div>
+          <div className="field">
+            <select
+              id="year"
+              name="year"
+              value={Year}
+              onChange={(e) => setYear(e.target.value)}
+            >
+              <option value="">Select Year</option>
+              <option value="FE">FE</option>
+              <option value="SE">SE</option>
+              <option value="TE">TE</option>
+              <option value="BE">BE</option>
+            </select>
+          </div>
+          <div className="field">
+            <select
+              id="division"
+              name="division"
+              value={Division}
+              onChange={(e) => setDivision(e.target.value)}
+            >
+              <option value="">Select Division</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+            </select>
+          </div>
+          <div className="button-container">
+            <button
+              className="login-button"
+              type="submit"
+              onClick={handleSignup}
+            >
+              Sign Up
+            </button>
           </div>
         </div>
+        <p className="text-sm font-light">
+          Already have an account?{" "}
+          <Link to="/Login" className="signup-link">
+            Click here
+          </Link>
+        </p>
+        <Link to="/ForgetPass" className="forgot-password-link">
+          Forgot Password!
+        </Link>
       </div>
     </div>
   );

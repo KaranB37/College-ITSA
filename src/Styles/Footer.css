@@ -47,7 +47,8 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center align vertically */
-
+  position: relative; /* Set position to relative */
+  z-index: 10; /* Add z-index property */
 }
 
 .centered-text {

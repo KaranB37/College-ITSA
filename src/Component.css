@@ -23,18 +23,6 @@ header h1 {
 }
 
 
-@font-face {
-  font-family: adrasta;
-  src: url(../RequestPersonalUse-axgZo.otf);
-}
-@font-face {
-  font-family: futura ;
-  src: url(../FuturaLT-Book.ttf);
-}
-@font-face {
-  font-family: monserat;
-  src: url(../Montserrat-VariableFont_wght.ttf);
-}
 .navbar-brand{
   font-size: 1.3rem !important;
   color: rgb(69,162,230) !important;

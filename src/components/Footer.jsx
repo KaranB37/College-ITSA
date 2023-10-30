@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "../Styles/Footer.css";
 import {
   FaFacebook,
   FaInstagram,
@@ -24,28 +24,44 @@ export default function Footer() {
             <ul>
               <li>
                 <div className="logo_img">
-                  <a href="https://itsa-pvppcoe.vercel.app/" target="_blank">
+                  <a
+                    href="https://itsa-pvppcoe.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={logo} alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="logo_img">
-                  <a href="https://pvppcoe.ac.in/" target="_blank">
+                  <a
+                    href="https://pvppcoe.ac.in/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={vppcoe} alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="logo_img">
-                  <a href="https://www.csi-india.org/" target="_blank">
+                  <a
+                    href="https://www.csi-india.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={csilogo} alt="" />
                   </a>
                 </div>
               </li>
               <li>
                 <div className="logo_img">
-                  <a href="https://iic.mic.gov.in/" target="_blank">
+                  <a
+                    href="https://iic.mic.gov.in/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={iic} alt="" />
                   </a>
                 </div>
@@ -54,6 +70,7 @@ export default function Footer() {
 
             <ul>
               <li>
+                {/* eslint-disable-next-line*/}
                 <a href="#" className="icon-link">
                   <FaFacebook size={30} className="facebook-icon" />
                 </a>
@@ -75,6 +92,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                {/* eslint-disable-next-line*/}
                 <a href="#" className="icon-link">
                   <FaTwitter size={30} className="twitter-icon" />
                 </a>

@@ -1,0 +1,25 @@
+.Signup-container {
+    display: flex;
+    min-height: 110vh;
+    background-image: url("../img/about123.png");
+    background-repeat: no-repeat; /* Prevent background image repetition */
+  background-size: cover; /* Scale the image to cover the entire container */
+  }
+
+  .form-container2 {
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px; /* Adjust the width as needed */
+    margin: auto;
+margin-top: 15vh;
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgb(255, 255, 255, 0.7);
+border-radius: 16px;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur(7.5px);
+-webkit-backdrop-filter: blur(7.5px);
+  }
+
+  
+  
