@@ -240,7 +240,6 @@ nav.shift ul li a:hover:after {
   margin-top: 0.5rem;
   font-size: 1.3rem !important; /* Updated font size */
   color: rgb(69, 162, 230) !important;
-  font-family: adrasta !important;
   letter-spacing: 2px;
 }
 

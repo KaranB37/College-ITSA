@@ -4,7 +4,7 @@ import "../Styles/Carousel.css";
 import file from "../img/file2.mp4";
 import { Link } from "react-router-dom";
 
-import imageAbove from "../img/itsa.png";
+import imageAbove from "../img/itsa5.png";
 import imageBelow from "../img/vppcoe.png";
 import { useEffect } from "react";
 
@@ -41,14 +41,14 @@ export default function Carousel() {
               <h4>College Of Engineering</h4>
               <h4>IT Department Presents</h4>
               <h1 className="car_head">ITSA</h1>
-
+              <br />
               <button type="button" className="btn btn-outline-info">
                 <Link
                   className="nav-link"
                   style={{ color: "white", fontWeight: "bold" }}
-                  to="/card"
+                  to="/Vission_Mission"
                 >
-                  Know More
+                  Vission & Mission
                 </Link>
               </button>
             </div>

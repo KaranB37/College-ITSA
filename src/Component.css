@@ -26,36 +26,34 @@ header h1 {
 .navbar-brand{
   font-size: 1.3rem !important;
   color: rgb(69,162,230) !important;
-  font-family: adrasta !important;
   letter-spacing: 2px;
 }
 .car_head{
   margin-top: 0rem;
   font-size: 3rem !important;
   color: rgb(69,162,230) !important;
-  font-family: adrasta !important;
   letter-spacing: 2px;
 }
 .left h1,.right h1{
   color: rgb(155,203,238);
 }
 .carousel-item{
-  font-family: monserat;
+
 }
 .carousel-item h1{
   color: rgb(155,203,238);
 }
 .carousel-content h4,.head_text,.contact_head{
-  font-family: futura;
+
 }
 .carousel-content h4{
   letter-spacing: 2px;
 }
 .nav-link{
-  font-family: futura;
+
 }
 .dropdown{
-  font-family: futura;
+
   background-color: black;
 
 }

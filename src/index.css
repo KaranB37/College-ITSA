@@ -11,55 +11,50 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.parallax {
-  /* The image used */
-  background-image:url('./img/abc.png');
 
-  /* Full height */
-  height: 100%; 
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+/* Apply custom styles to the entire application's scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust as needed for the desired slim appearance */
 }
 
-
-
-
-
-
-.parallax-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image:url('./img/abc.png');
-  /* background-image: url(../img/bg.png); Replace with your image URL */
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-  animation: parallaxAnimation 10s infinite linear;
+::-webkit-scrollbar-track {
+  background: transparent; /* Make the track transparent */
 }
 
-.parallax-content {
-  font-size: 25px; /* Adjust the font size as needed */
-  text-align: center;
+::-webkit-scrollbar-thumb {
+  background-color: #000; /* Black color for the thumb */
+  border-radius: 4px; /* Apply a slight curve */
 }
 
-
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
+/* Firefox scrollbar styles */
+/* Note that Firefox does not support customizing scrollbar width */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #000 transparent;
 }
 
+/* Apply similar styles to the global scrollbar in Edge/IE */
+*::-webkit-scrollbar {
+  width: 4px;
+}
 
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+/* Hide horizontal scrollbar in all browsers */
+::-webkit-scrollbar-thumb:horizontal {
+  display: none;
+}
+
+/* Hide horizontal scrollbar in Firefox */
+*::-webkit-scrollbar-thumb:horizontal {
+  display: none;
 }

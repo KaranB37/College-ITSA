@@ -17,6 +17,8 @@ import PrivateRoute from "./components/PrivateRoute";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { inject } from "@vercel/analytics";
 import UnderDevelopment from "./components/UnderDevelopment";
+import Navbar2 from "./components/Navbar2";
+import Vission_Mission from "./components/Vission_Mission";
 inject();
 
 function App() {
@@ -52,9 +54,9 @@ function App() {
 
   return (
     <BrowserRouter>
-      {/*<Navbar />*/}
+      <Navbar />
       <Routes>
-        <Route path="/" element={<UnderDevelopment />} />
+        <Route path="/" element={<Carousel />} />
         <Route
           path="/Signup"
           element={<Signup setAuthenticated={setAuthenticated} />}
@@ -64,8 +66,9 @@ function App() {
           element={<Login setAuthenticated={setAuthenticated} />}
         />
         <Route path="/Events" element={<Events />} />
+        <Route path="/Navbar2" element={<Navbar2 />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        {/*<Route path="/contact" element={<Contact />} />*/}
         <Route path="/Gallery" element={<Gallery />} />
         <Route
           path="/Profile"
@@ -78,8 +81,9 @@ function App() {
           }
         />
         <Route path="/ForgetPass" element={<ForgetPass />} />
+        <Route path="/Vission_Mission" element={<Vission_Mission />} />
       </Routes>
-      {/* <Footer />*/}
+      <Footer />
     </BrowserRouter>
   );
 }

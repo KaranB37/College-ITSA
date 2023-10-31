@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { HashLink as Link } from "react-router-hash-link";
-import "../Styles/Navbar.css";
 import { auth } from "./Firebase"; // Import your Firebase auth instance
 import dummy from "../img/dummy.png";
+import "../Styles/Navbar.css";
+
 const Navbar = () => {
   const [authenticated, setAuthenticated] = useState(false); // Track authentication status
 
@@ -79,15 +80,6 @@ const Navbar = () => {
             About
           </Link>
         </li>
-        <li>
-          <Link
-            to="/contact"
-            style={{ color: "white", fontWeight: "bold", fontfamily: "futura" }}
-            onClick={closeMenu}
-          >
-            Feedback
-          </Link>
-        </li>
         {authenticated ? (
           <div className="profile-image-container">
             <Link to="/profile">
@@ -127,3 +119,13 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// <li>
+//   <Link
+//     to="/contact"
+//     style={{ color: "white", fontWeight: "bold", fontfamily: "futura" }}
+//     onClick={closeMenu}
+//   >
+//     Feedback
+//   </Link>
+// </li>

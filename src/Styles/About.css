@@ -1,0 +1,75 @@
+.about-container-1 {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-image-about {
+    background-size: cover; 
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+  }
+  
+  .center-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .content-container-about {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+
+    text-align: center;
+  }
+  
+  .title-about {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .description-about {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Media queries for responsive design can be added here */
+  .bubble5{
+    position: absolute;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 100%;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 200px;
+width: 200px;
+top:14vh;
+left: 90vw;
+z-index: 1;
+
+  }
+  .bubble6{
+    position: absolute;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 100%;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 120px;
+width: 120px;
+top:62vh;
+left: 1vw;
+z-index: 1;
+
+  }
+

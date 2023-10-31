@@ -10,7 +10,7 @@ import {
   FaPhone,
 } from "react-icons/fa";
 
-import logo from "../img/itsa.png";
+import logo from "../img/itsa5.png";
 import csilogo from "../img/csi_logo.jpg";
 import vppcoe from "../img/vppcoe.png";
 import iic from "../img/iic.png";
@@ -122,7 +122,7 @@ export default function Footer() {
           </div>
 
           <div className="centered-text">
-            Developed and Designed by Karan Vishwakarma.<br></br>
+            Developed and Designed by ITSA.<br></br>
           </div>
         </div>
       </footer>
