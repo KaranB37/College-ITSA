@@ -105,14 +105,12 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
   
     .viss-Head{
-        font-size: 30px;
-        top: 15vh;
-        height: 100px;
+        display: none;
     
     }
     .vismis-container {
-        height: 300vh;
+        height: 330vh;
     }
-    .button { bottom: 20vh;
+    .button1 { bottom: 2vh;
     /* Add your CSS styles for small screens (e.g., mobile devices) here */
   }}
