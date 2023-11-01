@@ -46,9 +46,9 @@ export default function Carousel() {
                 <Link
                   className="nav-link"
                   style={{ color: "white", fontWeight: "bold" }}
-                  to="/Vission_Mission"
+                  to="/Events"
                 >
-                  Vission & Mission
+                  Know More
                 </Link>
               </button>
             </div>

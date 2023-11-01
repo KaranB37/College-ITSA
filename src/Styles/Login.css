@@ -173,5 +173,13 @@ backdrop-filter: blur(7.5px);
     margin-top: 1rem;
   }
   
-  /* Add responsive styles as needed */
+  @media screen and (max-width: 768px) {
+
+
+    .bubble4 ,.bubble2 ,.bubble,.bubble3,.bubble1{
+      display: none;
+    }
+
+  
+  }
   

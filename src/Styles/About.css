@@ -73,3 +73,15 @@ z-index: 1;
 
   }
 
+  @media screen and (max-width: 768px) {
+
+
+    .bubble6{
+      top:10vh;
+    }
+
+    .bubble5{
+      display: none;
+    }
+  }
+

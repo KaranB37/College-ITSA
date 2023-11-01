@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/About.css";
 
 import about123 from "../img/about123.png";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -23,6 +24,9 @@ const About = () => {
               empower and equip fellow IT enthusiasts to thrive in the
               ever-evolving world of technology.
             </p>
+          </div>
+          <div className="button1">
+            <Link to="/Vission_Mission">Vission and Mission</Link>
           </div>
         </div>
       </div>
