@@ -49,7 +49,7 @@ import itsa12 from "../img/itsa12.png";
 import paste from "../img/paste1.png";
 import pawar from "../img/pawar1.png";
 
-// import HOD from "../img/hod1.png";
+import HOD from "../img/hod1.png";
 
 export default function Gallery() {
   return (
@@ -82,6 +82,13 @@ export default function Gallery() {
           <img src={itsam2} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="text-center">Mr. Nilesh Mali</p>
+            <h5 className="card-title text-center">ITSA Co-ordinator</h5>
+          </div>
+        </div>
+        <div className="card" style={{ width: "22rem" }}>
+          <img src={HOD} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="text-center">Mr. Pradip Mane</p>
             <h5 className="card-title text-center">ITSA Co-ordinator</h5>
           </div>
         </div>
