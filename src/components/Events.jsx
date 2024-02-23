@@ -4,12 +4,16 @@ import img_2 from "../img/img_2.jpg";
 import img_3 from "../img/img_3.jpg";
 import img_4 from "../img/img_4.jpg";
 import img_5 from "../img/img_5.jpg";
+import { Link } from "react-router-dom";
 
 import React from "react";
 
 export default function Events() {
   return (
     <div className="card_main">
+      <div className="yearhead">
+        <h1>ACADEMIC YEAR 2023-2024</h1>
+      </div>
       <div className="row_1">
         <div className="card" style={{ width: "18rem" }}>
           <img src={img_2} className="card-img-top" alt="..." />
@@ -20,9 +24,11 @@ export default function Events() {
               to the Ultimate Tech Treasure Hunt! 🔍✨
             </p>
             <div class="button-container">
-              <a href="#" class="btn btn-primary">
-                View Details
-              </a>
+              <Link to="/Eventinfo">
+                <a href="#" class="btn btn-primary">
+                  View Details
+                </a>
+              </Link>{" "}
             </div>
           </div>
         </div>
@@ -36,9 +42,11 @@ export default function Events() {
               use their collective brainpower to solve clues
             </p>
             <div class="button-container">
-              <a href="#" class="btn btn-primary">
-                View Details
-              </a>
+              <Link to="/Eventinfo">
+                <a href="#" class="btn btn-primary">
+                  View Details
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -59,13 +67,15 @@ export default function Events() {
               >
                 Participate
               </a>
-              <a
-                href="https://drive.google.com/file/d/1q5K_Xv7lZQ8kJ_Ckblnc-tk2Nc-RMjeV/view?usp=drive_link"
-                target="_blank"
-                class="btn btn-primary"
-              >
-                View Details
-              </a>
+              <Link to="/Eventinfo">
+                <a
+                  href="https://drive.google.com/file/d/1q5K_Xv7lZQ8kJ_Ckblnc-tk2Nc-RMjeV/view?usp=drive_link"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  View Details
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -80,9 +90,11 @@ export default function Events() {
               projects and research🔥
             </p>
             <div class="button-container">
-              <a href="#" class="btn btn-primary">
-                View Details
-              </a>
+              <Link to="/Eventinfo">
+                <a href="#" class="btn btn-primary">
+                  View Details
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -95,9 +107,11 @@ export default function Events() {
               possible!✨📚
             </p>
             <div class="button-container">
-              <a href="#" class="btn btn-primary">
-                View Details
-              </a>
+              <Link to="/Eventinfo">
+                <a href="#" class="btn btn-primary">
+                  View Details
+                </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -56,7 +56,7 @@ export default function Gallery() {
     <div className="team-gallery">
       <button data-text="Awesome" className="button">
         <div className="container">
-          <span className="actual-text text-4xl" style={{ width: "18rem" }}>
+          <span className="actual-text text-4xl" style={{ fontSize: "1.8rem" }}>
             &nbsp;ITSA Staff&nbsp;
           </span>
           <span className="hover-text" aria-hidden="true"></span>
@@ -64,7 +64,7 @@ export default function Gallery() {
       </button>
 
       <div className="gallery-container">
-        <div className="card" style={{ width: "22rem" }}>
+        {/*<div className="card" style={{ width: "22rem" }}>
           <img src={itsam1} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="text-center">Mr. Pravin Patil</p>
@@ -77,7 +77,7 @@ export default function Gallery() {
             <p className="text-center">Ms. Vedika Avhad</p>
             <h5 className="card-title text-center">ITSA Co-ordinator</h5>
           </div>
-        </div>
+  </div>*/}
         <div className="card" style={{ width: "22rem" }}>
           <img src={itsam2} className="card-img-top" alt="..." />
           <div className="card-body">
@@ -89,7 +89,7 @@ export default function Gallery() {
 
       <button data-text="Awesome" className="button">
         <div className="container">
-          <span className="actual-text text-4xl" style={{ width: "18rem" }}>
+          <span className="actual-text text-4xl" style={{ fontSize: "1.8rem" }}>
             &nbsp;Our Team&nbsp;
           </span>
           <span className="hover-text" aria-hidden="true"></span>
@@ -258,13 +258,13 @@ export default function Gallery() {
       </div>
 
       <div className="gallery-container">
-        <div className="card" style={{ width: "22rem" }}>
+        {/* <div className="card" style={{ width: "22rem" }}>
           <img src={kajal_tech_member} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="text-center">Kajal Kewat</p>
             <h5 className="card-title text-center">Technical Member</h5>
           </div>
-        </div>
+</div>*/}
         <div className="card" style={{ width: "22rem" }}>
           <img src={arvind_tech_member} className="card-img-top" alt="..." />
           <div className="card-body">
@@ -272,7 +272,7 @@ export default function Gallery() {
             <h5 className="card-title text-center">Technical Member</h5>
           </div>
         </div>
-        <div className="card" style={{ width: "22rem" }}>
+        {/*<div className="card" style={{ width: "22rem" }}>
           <img
             src={shubham_publicity_member}
             className="card-img-top"
@@ -282,7 +282,7 @@ export default function Gallery() {
             <p className="text-center">Shubham Gavhane</p>
             <h5 className="card-title text-center">Publicity Member</h5>
           </div>
-        </div>
+</div>*/}
         <div className="card" style={{ width: "22rem" }}>
           <img
             src={sahil_publicity_member}
@@ -292,66 +292,6 @@ export default function Gallery() {
           <div className="card-body">
             <p className="text-center">Sahil Deshmukh</p>
             <h5 className="card-title text-center">Publicity Member</h5>
-          </div>
-        </div>
-      </div>
-
-      <div className="gallery-container">
-        <div className="card" style={{ width: "22rem" }}>
-          <img
-            src={prabha_document_member}
-            className="card-img-top"
-            alt="..."
-          />
-          <div className="card-body">
-            <p className="text-center">Prabha Gawde</p>
-            <h5 className="card-title text-center">Documentation Member</h5>
-          </div>
-        </div>
-        <div className="card" style={{ width: "22rem" }}>
-          <img src={soham_document_member} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <p className="text-center">Soham Gawde</p>
-            <h5 className="card-title text-center">Documentation Member</h5>
-          </div>
-        </div>
-        <div className="card" style={{ width: "22rem" }}>
-          <img src={rama_infra_mem} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <p className="text-center">Ramdas Chougule</p>
-            <h5 className="card-title text-center">Infra Member</h5>
-          </div>
-        </div>
-        <div className="card" style={{ width: "22rem" }}>
-          <img src={aniket_infra_member} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <p className="text-center">Aniket Patil</p>
-            <h5 className="card-title text-center">Infra Member</h5>
-          </div>
-        </div>
-      </div>
-
-      <div className="gallery-container">
-        <div className="card" style={{ width: "22rem" }}>
-          <img
-            src={diksha_creativity_member}
-            className="card-img-top"
-            alt="..."
-          />
-          <div className="card-body">
-            <p className="text-center">Diksha Jadhav </p>
-            <h5 className="card-title text-center">Creativity Member</h5>
-          </div>
-        </div>
-        <div className="card" style={{ width: "22rem" }}>
-          <img
-            src={nutan_creativity_member}
-            className="card-img-top"
-            alt="..."
-          />
-          <div className="card-body">
-            <p className="text-center">Nutan Avhad</p>
-            <h5 className="card-title text-center">Creativity Member</h5>
           </div>
         </div>
         <div className="card" style={{ width: "22rem" }}>
@@ -380,19 +320,77 @@ export default function Gallery() {
 
       <div className="gallery-container">
         <div className="card" style={{ width: "22rem" }}>
+          <img
+            src={prabha_document_member}
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <p className="text-center">Prabha Gawde</p>
+            <h5 className="card-title text-center">Documentation Member</h5>
+          </div>
+        </div>
+        {/* <div className="card" style={{ width: "22rem" }}>
+          <img src={soham_document_member} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="text-center">Soham Gawde</p>
+            <h5 className="card-title text-center">Documentation Member</h5>
+          </div>
+</div>*/}
+        <div className="card" style={{ width: "22rem" }}>
+          <img src={rama_infra_mem} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="text-center">Ramdas Chougule</p>
+            <h5 className="card-title text-center">Infra Member</h5>
+          </div>
+        </div>
+        <div className="card" style={{ width: "22rem" }}>
+          <img src={aniket_infra_member} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="text-center">Aniket Patil</p>
+            <h5 className="card-title text-center">Infra Member</h5>
+          </div>
+        </div>
+        <div className="card" style={{ width: "22rem" }}>
           <img src={sahil_infra_member} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="text-center">Sahil Pawar </p>
             <h5 className="card-title text-center">Infra Member</h5>
           </div>
         </div>
+      </div>
+
+      {/*  <div className="card" style={{ width: "22rem" }}>
+          <img
+            src={diksha_creativity_member}
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <p className="text-center">Diksha Jadhav </p>
+            <h5 className="card-title text-center">Creativity Member</h5>
+          </div>
+        </div>
         <div className="card" style={{ width: "22rem" }}>
+          <img
+            src={nutan_creativity_member}
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <p className="text-center">Nutan Avhad</p>
+            <h5 className="card-title text-center">Creativity Member</h5>
+          </div>
+</div>*/}
+
+      <div className="gallery-container">
+        {/* <div className="card" style={{ width: "22rem" }}>
           <img src={ameya_infra_member} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="text-center">Amey Katole</p>
             <h5 className="card-title text-center">Infra Member</h5>
           </div>
-        </div>
+</div>*/}
       </div>
     </div>
   );

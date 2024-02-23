@@ -19,6 +19,7 @@ import { inject } from "@vercel/analytics";
 import UnderDevelopment from "./components/UnderDevelopment";
 import Navbar2 from "./components/Navbar2";
 import Vission_Mission from "./components/Vission_Mission";
+import Eventinfo from "./components/Eventinfo";
 inject();
 
 function App() {
@@ -82,6 +83,7 @@ function App() {
         />
         <Route path="/ForgetPass" element={<ForgetPass />} />
         <Route path="/Vission_Mission" element={<Vission_Mission />} />
+        <Route path="/Eventinfo" element={<Eventinfo />} />
       </Routes>
       <Footer />
     </BrowserRouter>

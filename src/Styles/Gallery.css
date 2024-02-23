@@ -1,11 +1,10 @@
 * {
-    font-family: Nunito, sans-serif;
-  }
-  
-  
-.gallery-container{
+  font-family: Nunito, sans-serif;
+}
+
+.gallery-container {
   margin-top: 5rem;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
@@ -16,8 +15,9 @@
   flex-direction: column;
   align-items: center;
 }
-.team-gallery{
-  display:flex;
+.team-gallery {
+  margin-bottom: 50px;
+  display: flex;
   flex-direction: column;
 }
 
@@ -35,15 +35,12 @@
   transition: box-shadow 0.3s;
 }
 
-
 .card {
   /* ... (your existing card styles) */
   box-shadow: 0 0 10px rgba(0, 174, 255, 0);
   transition: box-shadow 0.3s;
   animation: preLoadAnimation 2s ease-in-out forwards; /* Pre-loading animation */
 }
-
-
 
 @keyframes preLoadAnimation {
   0% {
@@ -54,7 +51,6 @@
   }
 }
 
-
 .card {
   width: 15rem;
   height: 20rem; /* Adjust the height as needed */
@@ -63,9 +59,7 @@
   align-items: center;
   justify-content: center; /* Center content vertically */
   position: relative; /* Establish a stacking context */
-
 }
-
 
 .card-title {
   font-size: 1.2rem; /* Adjust the font size */
@@ -85,12 +79,9 @@
   }
 }
 
-.card-text{
- margin-left: 30px;
+.card-text {
+  margin-left: 30px;
 }
-
-
-
 
 /* === removing default button style ===*/
 .button {
@@ -106,13 +97,12 @@
   justify-content: center;
   align-items: center;
   height: 7vh;
-  
 }
 
 /* button styling */
 .button {
   --border-right: 6px;
-  --text-stroke-color: rgba(255,255,255,0.6);
+  --text-stroke-color: rgba(255, 255, 255, 0.6);
   --animation-color: #0dcaf0;
   --fs-size: 2em;
   margin-bottom: -35px;
@@ -146,7 +136,7 @@
 /* hover */
 .button:hover .hover-text {
   width: 100%;
-  filter: drop-shadow(0 0 23px var(--animation-color))
+  filter: drop-shadow(0 0 23px var(--animation-color));
 }
 
 @media (max-width: 500px) {
@@ -164,7 +154,6 @@
     margin-right: 10%;
     letter-spacing: 2px; /* Adjust letter spacing for mobile */
     font-size: var(--fs-size);
- 
   }
 
   /* Hover animation for mobile */

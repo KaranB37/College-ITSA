@@ -1,13 +1,14 @@
-html{
+html {
   background-color: black;
 }
-body{
+body {
   overflow-x: hidden;
 }
-#root{
+
+#root {
   background-color: black;
   height: 100vh;
-  width: 100vw; 
+  width: 100vw;
 }
 .button-container {
   display: flex;
@@ -16,66 +17,63 @@ body{
 header h1 {
   font-size: 70px;
   font-weight: 600;
-  background-image:radial-gradient(circle, #553c9a, #ee4b2b);
+  background-image: radial-gradient(circle, #553c9a, #ee4b2b);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
 }
 
-
-.navbar-brand{
+.navbar-brand {
   font-size: 1.3rem !important;
-  color: rgb(69,162,230) !important;
+  color: rgb(69, 162, 230) !important;
   letter-spacing: 2px;
 }
-.car_head{
+.car_head {
   margin-top: 0rem;
   font-size: 3rem !important;
-  color: rgb(69,162,230) !important;
+  color: rgb(69, 162, 230) !important;
   letter-spacing: 2px;
 }
-.left h1,.right h1{
-  color: rgb(155,203,238);
+.left h1,
+.right h1 {
+  color: rgb(155, 203, 238);
 }
-.carousel-item{
-
+.carousel-item {
 }
-.carousel-item h1{
-  color: rgb(155,203,238);
+.carousel-item h1 {
+  color: rgb(155, 203, 238);
 }
-.carousel-content h4,.head_text,.contact_head{
-
+.carousel-content h4,
+.head_text,
+.contact_head {
 }
-.carousel-content h4{
+.carousel-content h4 {
   letter-spacing: 2px;
 }
-.nav-link{
-
+.nav-link {
 }
-.dropdown{
-
+.dropdown {
   background-color: black;
-
 }
-.div_vid{
-    background-color: transparent;
-    height: 100vh;
-    width: 100%;   
-    display: flex;
-    justify-content: center;
+.div_vid {
+  background-color: transparent;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
-.videoTag{
+.videoTag {
   height: 100%;
   width: 100vw;
   filter: brightness(50%);
 }
-video{
+video {
   object-fit: fill;
 }
 .carousel-content {
   font-size: 24px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -85,21 +83,25 @@ video{
   color: white;
   opacity: 1; /* Set opacity of the text content to 1 */
 }
-
-
-.div_about,.gallery{
+.yearhead {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.div_about,
+.gallery {
   height: 100vh;
-  width:100vw;
+  width: 100vw;
   background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.carousel{
-  height:  35rem!important;
+.carousel {
+  height: 35rem !important;
   width: 60rem !important;
-  background-color:#202020;
+  background-color: #202020;
   border-radius: 0.5rem;
   display: flex !important;
   flex-direction: column;
@@ -109,16 +111,16 @@ video{
   color: white !important;
   font-size: 22px;
 }
-.carousel-inner{
+.carousel-inner {
   width: 50rem !important;
   padding-top: 2rem;
   display: flex;
 }
-.head_text{
+.head_text {
   /* margin-top: -1.5rem; */
   font-size: 4rem;
   font-weight: bolder;
-  color:  rgb(69,162,230);
+  color: rgb(69, 162, 230);
 }
 
 @keyframes gradientMovement {
@@ -129,12 +131,12 @@ video{
     background-position: 100% 50%;
   }
 }
-.contact_head{
-  color:  rgb(69,162,230);
+.contact_head {
+  color: rgb(69, 162, 230);
   font-size: 4rem;
   font-weight: bolder;
 }
-.contact_body{
+.contact_body {
   height: 40%;
   width: 50%;
   justify-content: center;
@@ -142,7 +144,7 @@ video{
   align-items: center;
   justify-content: space-between;
 }
-.left{
+.left {
   width: 43%;
   height: 100%;
   color: white;
@@ -152,10 +154,10 @@ video{
   align-items: center;
   flex-direction: column;
 }
-.add{
+.add {
   width: 50%;
 }
-.right{
+.right {
   width: 43%;
   height: 100%;
   color: white;
@@ -165,13 +167,13 @@ video{
   flex-direction: column;
   text-align: center;
 }
-.social{
+.social {
   display: flex;
   align-items: center;
   height: 100%;
   width: 5%;
 }
-.foot_main{
+.foot_main {
   height: 20vh;
   width: 100vw;
   background-color: black;
@@ -179,32 +181,33 @@ video{
   justify-content: center;
   flex-direction: column;
 }
-.foot_main h6{
+.foot_main h6 {
   text-align: center;
 }
-.logo_img{
+.logo_img {
   height: 70%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-around !important; 
+  justify-content: space-around !important;
 }
-.logo_img img{
+.logo_img img {
   height: 5rem;
   width: 5rem;
   background-color: white;
   border-radius: 50%;
 }
-.social a img{
+.social a img {
   height: 2rem;
   width: 2rem;
 }
-.dropdown{
+.dropdown {
   margin-left: 1rem;
 }
-.card_main{
- padding-top: 8rem;
+.card_main {
+  margin-bottom: 30px;
+  padding-top: 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -212,7 +215,7 @@ video{
   justify-content: space-around;
 }
 
-.gallery-info{
+.gallery-info {
   margin-top: 0rem;
   display: flex;
   justify-content: center;
@@ -221,15 +224,11 @@ video{
   justify-content: space-around;
 }
 
-
-
-
-
-.card{
+.card {
   background-color: #202020 !important;
   color: white;
 }
-.card-none{
+.card-none {
   height: 100vh;
   width: 100vw;
   color: white;
@@ -239,39 +238,43 @@ video{
   flex-direction: column;
   font-weight: 500;
 }
-.row_1,.row_2,.gallery-row1,.gallery-row2{
+.row_1,
+.row_2,
+.gallery-row1,
+.gallery-row2 {
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
 }
-.row_1,.gallery-row1{
+.row_1,
+.gallery-row1 {
   margin-bottom: 5rem;
 }
-.gallery-info .card-text{
+.gallery-info .card-text {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.gallery-info img{
+.gallery-info img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
   border: 5px solid red;
 }
-.img-border{
+.img-border {
   height: 160px;
   width: 160px;
   border-radius: 50%;
-  border:5px solid blue;
+  border: 5px solid blue;
   background-color: white;
 }
-.gallery-info .card-body{
+.gallery-info .card-body {
   background-color: black;
 }
-.gallery-info .card{
+.gallery-info .card {
   background-color: black !important;
 }
 
@@ -279,57 +282,60 @@ video{
   html {
     font-size: 12px;
   }
-  .navbar-brand{
+  .navbar-brand {
     font-size: 1.3rem !important;
   }
-  .div_vid{
+  .div_vid {
     height: 100vh !important;
-    width: 100vw; 
+    width: 100vw;
   }
-  .nav-link{
+  .nav-link {
     font-size: 15px !important;
   }
-  .videoTag{
+  .videoTag {
     height: 100% !important;
-    width:100vw !important;
+    width: 100vw !important;
     object-fit: cover;
   }
 
-  .car_head{
+  .car_head {
     font-size: 1.7rem !important;
     font-weight: bolder !important;
   }
-  .foot_main{
+  .foot_main {
     height: 15vh;
     position: relative;
   }
-  .logo_img img{
+  .logo_img img {
     height: 5rem;
     width: 5rem;
     background-color: white;
   }
-  .card_main{
+  .card_main {
     padding-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .gallery-info{
+  .gallery-info {
     margin-top: 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .row_1,.row_2,.gallery-row1,.gallery-row2{
+  .row_1,
+  .row_2,
+  .gallery-row1,
+  .gallery-row2 {
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .card{
+  .card {
     margin-bottom: 3rem;
   }
 }

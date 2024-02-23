@@ -26,7 +26,9 @@ const About = () => {
             </p>
           </div>
           <div className="button1">
-            <Link to="/Vission_Mission">Vission and Mission</Link>
+            <Link to="/Vission_Mission" className="noneabc">
+              Vission and Mission
+            </Link>
           </div>
         </div>
       </div>
